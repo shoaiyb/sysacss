@@ -6,6 +6,11 @@ html {
     height: 100%;
 }
 
+b,
+strong {
+  font-weight: bold;
+}
+
 article,
 aside,
 details,
@@ -20,6 +25,15 @@ section {
     display:block;
 }
 
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
 img {
   border: 0;
 }
@@ -32,4 +46,16 @@ input[type=text] {
 
 input[type=text]:focus {
   width: 100%;
+}
+
+pre {
+  overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
