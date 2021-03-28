@@ -41,7 +41,7 @@ small, .small-text {font-size: 0.889rem;}
   
   
 
-body {
+/* body {
 margin : 0;
 }
 body, html {
@@ -74,4 +74,5 @@ overflow : auto;
 code, kbd, pre, samp {
 font-family : monospace, monospace;
 font-size : 1em;
-}
+} */
+  
