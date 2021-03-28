@@ -1,61 +1,34 @@
 body {
-  margin: 0;
+margin : 0;
 }
-body,
-html {
-    height: 100%;
+body, html {
+height : 100%;
 }
-
-b,
-strong {
-  font-weight: bold;
+b, strong {
+font-weight : 700;
 }
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section { 
-    display:block;
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display : block;
 }
-
 button {
-  overflow: visible;
+overflow : visible;
 }
-
-button,
-select {
-  text-transform: none;
+button, select {
+text-transform : none;
 }
-
 img {
-  border: 0;
+border : 0;
 }
-
-input[type=text] {
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+input[type="text"] {
+width : 130px;
 }
-
-input[type=text]:focus {
-  width: 100%;
+input[type="text"]:focus {
+width : 100%;
 }
-
 pre {
-  overflow: auto;
+overflow : auto;
 }
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+code, kbd, pre, samp {
+font-family : monospace, monospace;
+font-size : 1em;
 }
