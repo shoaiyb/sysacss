@@ -1,3 +1,51 @@
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+/* ----------------------------------------------- */
+
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 85%;
+    padding: 0; }
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+  .sysa-container {
+    width: 80%; }
+  
+  
+  
+  
+  
+  
+  
 /* @import url('https://fonts.googleapis.com/css?family=Poppins:400'); */
 
 html {font-size: 100%;} /*16px*/
@@ -32,6 +80,15 @@ h5 {font-size: 1.125rem;}
 
 small, .small-text {font-size: 0.889rem;}
 
+/* Larger than phablet */
+@media (min-width: 550px) {
+  h1 { font-size: 5.0rem; }
+  h2 { font-size: 4.2rem; }
+  h3 { font-size: 3.6rem; }
+  h4 { font-size: 3.0rem; }
+  h5 { font-size: 2.4rem; }
+  h6 { font-size: 1.5rem; }
+}
   
   
   
@@ -76,6 +133,14 @@ font-family : monospace, monospace;
 font-size : 1em;
 } */
   
+
+  
+
+  
+  
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
 /* Larger than mobile */
 @media (min-width: 400px) {}
 
