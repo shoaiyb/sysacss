@@ -16,16 +16,13 @@
 </h1>
 
 <p align="center">
-  Mobile-First Responsive CSS Framework
+  Ultra-lightweight Mobile-First Responsive CSS Framework
 </p>
 
-## SYSACSS
 Free and Open Source Responsive Modern CSS Framework
 
 SYSACSS is Smaller, Faster and Easier to use.
 SYSACSS is standard CSS only (No jQuery or JavaScript library).
-</p>
-
 
 
 ## License
