@@ -7,8 +7,6 @@
 
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/shoaiyb/css">
 
-<img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/shoaiyb/css">
-
 <a href="https://github.com/shoaiyb/css/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/shoaiyb/css"></a>
 
 </p>
@@ -20,6 +18,8 @@
 <p align="center">
   Mobile-First Responsive CSS Framework
 </p>
+
+## SYSACSS
 Free and Open Source Responsive Modern CSS Framework
 
 SYSACSS is Smaller, Faster and Easier to use.
