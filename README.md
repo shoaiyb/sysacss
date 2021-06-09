@@ -1,6 +1,8 @@
 <p align="center">
   <img src="https://css.sysa.ml/logo.svg?v=3" width="120" height="120" />
+</p>
 
+<p align="center">
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/shoaiyb/css/total">
 
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/shoaiyb/css">
