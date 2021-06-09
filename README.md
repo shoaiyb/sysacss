@@ -1,4 +1,4 @@
-<p align="center"><span style="width:100;height:100;>👾🌸🐙🐾</span></p>
+<p align="center">👾🌸🐙🐾</p>
 <h1 align="center">SysaCSS</h1>
 <!--
 <p align="center">Modern CSS Framework based on w3.css</p>
