@@ -4,11 +4,8 @@
 
 <p align="center">
 <img alt="GitHub all releases" src="https://img.shields.io/github/downloads/shoaiyb/css/total">
-
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/shoaiyb/css">
-
+  
 <a href="https://github.com/shoaiyb/css/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/shoaiyb/css"></a>
-
 </p>
 
 <h1 align="center">
