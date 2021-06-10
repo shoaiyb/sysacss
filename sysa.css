@@ -1,4 +1,4 @@
-/*! sysa.css v1.0 | MIT License | github.com/shoaiyb/css */
+/*! sysacss v1.0 | MIT License | github.com/shoaiyb/css */
 
 html {
 	box-sizing: border-box;
@@ -1192,6 +1192,26 @@ a {
 
 .ss-sepia-min {
 	filter: sepia(50%);
+}
+
+.ss-uppercase,.ss-hover-uppercase:hover {
+	text-transform: uppercase!important;
+}
+
+.ss-lowercase,.ss-hover-lowercase:hover {
+	text-transform: lowercase!important;
+}
+
+.ss-underline,.ss-hover-underline:hover {
+	text-decoration: underline!important;
+}
+
+.ss-no-underline,.ss-hover-no-underline:hover {
+	text-decoration: none!important;
+}
+
+.ss-capitalize,.ss-hover-capitalize:hover {
+	text-transform: capitalize!important;
 }
 
 .ss-tiny {
