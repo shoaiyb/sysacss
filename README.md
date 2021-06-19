@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/shoaiyb/css/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/shoaiyb/css"></a>
   <br />
-  <img src="https://img.shields.io/github/size/shoaiyb/css/sysa.css" alt="GitHub file size in bytes" />
+  <img src="https://img.shields.io/github/size/shoaiyb/css/sysa.min.css" alt="GitHub file size in bytes" />
   <br />
   <img alt="GitHub release (latest SemVer)" src="https://img.shields.io/github/v/release/shoaiyb/css?sort=semver">
   <br />
