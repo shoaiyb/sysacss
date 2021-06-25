@@ -1014,7 +1014,7 @@ a {
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 
-.ss-card-4,.ss-hover-shadow:hover {
+.ss-card-4,.ss-hvr-shadow:hover {
 	box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
 }
 
@@ -1154,11 +1154,11 @@ a {
 	width: 100%!important;
 }
 
-.ss-opacity,.ss-hover-opacity:hover {
+.ss-opacity,.ss-hvr-opacity:hover {
 	opacity: 0.60;
 }
 
-.ss-opacity-off,.ss-hover-opacity-off:hover {
+.ss-opacity-off,.ss-hvr-opacity-off:hover {
 	opacity: 1;
 }
 
@@ -1170,7 +1170,7 @@ a {
 	opacity: 0.75;
 }
 
-.ss-greyscale-max,.ss-grayscale-max,.ss-hover-greyscale:hover,.ss-hover-grayscale:hover {
+.ss-greyscale-max,.ss-grayscale-max,.ss-hvr-greyscale:hover,.ss-hvr-grayscale:hover {
 	filter: grayscale(100%);
 }
 
@@ -1186,7 +1186,7 @@ a {
 	filter: sepia(75%);
 }
 
-.ss-sepia-max,.ss-hover-sepia:hover {
+.ss-sepia-max,.ss-hvr-sepia:hover {
 	filter: sepia(100%);
 }
 
@@ -1194,23 +1194,23 @@ a {
 	filter: sepia(50%);
 }
 
-.ss-uppercase,.ss-hover-uppercase:hover {
+.ss-uppercase,.ss-hvr-uppercase:hover {
 	text-transform: uppercase!important;
 }
 
-.ss-lowercase,.ss-hover-lowercase:hover {
+.ss-lowercase,.ss-hvr-lowercase:hover {
 	text-transform: lowercase!important;
 }
 
-.ss-underline,.ss-hover-underline:hover {
+.ss-underline,.ss-hvr-underline:hover {
 	text-decoration: underline!important;
 }
 
-.ss-no-underline,.ss-hover-no-underline:hover {
+.ss-no-underline,.ss-hvr-no-underline:hover {
 	text-decoration: none!important;
 }
 
-.ss-capitalize,.ss-hover-capitalize:hover {
+.ss-capitalize,.ss-hvr-capitalize:hover {
 	text-transform: capitalize!important;
 }
 
@@ -1508,11 +1508,11 @@ a {
 	background-color: #f1f1f1!important;
 }
 
-.ss-bg-dark-grey,.ss-hvr-bg-dark-grey:hover,.ss-dark-gray,.ss-hover-dark-gray:hover {
+.ss-bg-dark-grey,.ss-hvr-bg-dark-grey:hover,.ss-dark-gray,.ss-hvr-dark-gray:hover {
 	background-color: #616161!important;
 }
 
-.ss-bg-pale-red,.ss-hover-bg-pale-red:hover {
+.ss-bg-pale-red,.ss-hvr-bg-pale-red:hover {
 	background-color: #ffdddd!important;
 }
 
