@@ -1032,11 +1032,11 @@ a {
 	}
 }
 
-.ss-animate-fading {
-	animation: fading 10s infinite;
+.ss-anim-fading {
+	animation: animfading 10s infinite;
 }
 
-@keyframes fading {
+@keyframes animfading {
 	0% {
 		opacity: 0;
 	}
@@ -1050,11 +1050,11 @@ a {
 	}
 }
 
-.ss-animate-opacity {
-	animation: opac 0.8s;
+.ss-anim-opacity {
+	animation: animopac 0.8s;
 }
 
-@keyframes opac {
+@keyframes animopac {
 	from {
 		opacity: 0;
 	}
@@ -1064,12 +1064,12 @@ a {
 	}
 }
 
-.ss-animate-top {
+.ss-anim-top {
 	position: relative;
-	animation: animatetop 0.4s;
+	animation: animtop 0.4s;
 }
 
-@keyframes animatetop {
+@keyframes animtop {
 	from {
 		top: -300px;
 		opacity: 0;
@@ -1081,12 +1081,12 @@ a {
 	}
 }
 
-.ss-animate-left {
+.ss-anim-left {
 	position: relative;
-	animation: animateleft 0.4s;
+	animation: animleft 0.4s;
 }
 
-@keyframes animateleft {
+@keyframes animleft {
 	from {
 		left: -300px;
 		opacity: 0;
@@ -1098,12 +1098,12 @@ a {
 	}
 }
 
-.ss-animate-right {
+.ss-anim-right {
 	position: relative;
-	animation: animateright 0.4s;
+	animation: animright 0.4s;
 }
 
-@keyframes animateright {
+@keyframes animright {
 	from {
 		right: -300px;
 		opacity: 0;
@@ -1115,12 +1115,12 @@ a {
 	}
 }
 
-.ss-animate-bottom {
+.ss-anim-bottom {
 	position: relative;
-	animation: animatebottom 0.4s;
+	animation: animbottom 0.4s;
 }
 
-@keyframes animatebottom {
+@keyframes animbottom {
 	from {
 		bottom: -300px;
 		opacity: 0;
@@ -1132,11 +1132,11 @@ a {
 	}
 }
 
-.ss-animate-zoom {
-	animation: animatezoom 0.6s;
+.ss-anim-zoom {
+	animation: animzoom 0.6s;
 }
 
-@keyframes animatezoom {
+@keyframes animzoom {
 	from {
 		transform: scale(0);
 	}
@@ -1146,11 +1146,11 @@ a {
 	}
 }
 
-.ss-animate-input {
+.ss-anim-input {
 	transition: width 0.4s ease-in-out;
 }
 
-.ss-animate-input:focus {
+.ss-anim-input:focus {
 	width: 100%!important;
 }
 
@@ -1307,6 +1307,9 @@ a {
 	margin-bottom: 16px!important;
 }
 
+
+/* NCA */
+
 .ss-margin {
 	margin: 16px!important;
 }
@@ -1339,44 +1342,45 @@ a {
 	padding: 12px 24px!important;
 }
 
-.ss-padding-16 {
-	padding-top: 16px!important;
+
+/* PB */
+
+.ss-pb-16 {
 	padding-bottom: 16px!important;
 }
 
-.ss-padding-24 {
-	padding-top: 24px!important;
+.ss-pb-24 {
 	padding-bottom: 24px!important;
 }
 
-.ss-padding-32 {
-	padding-top: 32px!important;
+.ss-pb-32 {
 	padding-bottom: 32px!important;
 }
 
-.ss-padding-48 {
-	padding-top: 48px!important;
+.ss-pb-48 {
 	padding-bottom: 48px!important;
 }
 
-.ss-padding-64 {
-	padding-top: 64px!important;
+.ss-pb-64 {
 	padding-bottom: 64px!important;
 }
 
-.ss-padding-top-64 {
+
+/* PT */
+
+.ss-pt-64 {
 	padding-top: 64px!important;
 }
 
-.ss-padding-top-48 {
+.ss-pt-48 {
 	padding-top: 48px!important;
 }
 
-.ss-padding-top-32 {
+.ss-pt-32 {
 	padding-top: 32px!important;
 }
 
-.ss-padding-top-24 {
+.ss-pt-24 {
 	padding-top: 24px!important;
 }
 
