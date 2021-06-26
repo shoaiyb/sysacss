@@ -26,10 +26,6 @@
   color: #00bcd4!important;
 }
 
-.ss-blue-grey,.ss-hvr-blue-grey:hover {
-  color: #607d8b!important;
-}
-
 .ss-green,.ss-hvr-green:hover {
   color: #4CAF50!important;
 }
@@ -44,6 +40,10 @@
 
 .ss-light-grey,.ss-hvr-light-grey:hover {
   color: #f1f1f1!important;
+}
+
+.ss-blue-grey,.ss-hvr-blue-grey:hover {
+  color: #607d8b!important;
 }
 
 .ss-dark-grey,.ss-hvr-dark-grey:hover {
