@@ -26,6 +26,10 @@
   margin: 48px!important;
 }
 
+.ss-m-7 {
+  margin: 64px!important;
+}
+
 .ss-m-auto {
   margin: auto!important;
 }
@@ -56,6 +60,10 @@
 
 .ss-mt-6 {
   margin-top: 48px!important;
+}
+
+.ss-mt-7 {
+  margin-top: 64px!important;
 }
 
 .ss-mt-auto {
@@ -90,6 +98,10 @@
   margin-bottom: 48px!important;
 }
 
+.ss-mb-7 {
+  margin-bottom: 64px!important;
+}
+
 .ss-mb-auto {
   margin-bottom: auto!important;
 }
@@ -122,6 +134,10 @@
   margin-left: 48px!important;
 }
 
+.ss-ml-7 {
+  margin-left: 64px!important;
+}
+
 .ss-ml-auto {
   margin-left: auto!important;
 }
@@ -152,6 +168,10 @@
 
 .ss-mr-6 {
   margin-right: 48px!important;
+}
+
+.ss-mr-7 {
+  margin-right: 64px!important;
 }
 
 .ss-mr-auto {
@@ -191,6 +211,11 @@
 .ss-my-6 {
   margin-top: 48!important;
   margin-bottom: 48!important;
+}
+
+.ss-my-7 {
+  margin-top: 64!important;
+  margin-bottom: 64!important;
 }
 
 .ss-my-auto {
@@ -233,6 +258,11 @@
   margin-right: 48px!important;
 }
 
+.ss-mx-7 {
+  margin-left: 64px!important;
+  margin-right: 64px!important;
+}
+
 .ss-mx-auto {
   margin-left: auto!important;
   margin-right: auto!important;
@@ -264,6 +294,10 @@
 
 .ss-p-6 {
   padding: 48px!important;
+}
+
+.ss-p-7 {
+  padding: 64px!important;
 }
 
 .ss-p-auto {
@@ -298,6 +332,10 @@
   padding-top: 48px!important;
 }
 
+.ss-pt-7 {
+  padding-top: 64px!important;
+}
+
 .ss-pt-auto {
   padding-top: auto !important;
 }
@@ -328,6 +366,10 @@
 
 .ss-pb-6 {
   padding-bottom: 48px!important;
+}
+
+.ss-pb-7 {
+  padding-bottom: 64px!important;
 }
 
 .ss-pb-auto {
@@ -362,6 +404,10 @@
   padding-left: 48px!important;
 }
 
+.ss-pl-7 {
+  padding-left: 64px!important;
+}
+
 .ss-pl-auto {
   padding-left: auto!important;
 }
@@ -392,6 +438,10 @@
 
 .ss-pr-6 {
   padding-right: 48px!important;
+}
+
+.ss-pr-7 {
+  padding-right: 64px!important;
 }
 
 .ss-pr-auto {
@@ -433,6 +483,11 @@
   padding-bottom: 48!important;
 }
 
+.ss-py-7 {
+  padding-top: 64!important;
+  padding-bottom: 64!important;
+}
+
 .ss-py-auto {
   padding-top: auto!important;
   padding-bottom: auto!important;
@@ -471,6 +526,11 @@
 .ss-px-6 {
   padding-left: 48px!important;
   padding-right: 48px!important;
+}
+
+.ss-px-7 {
+  padding-left: 64px!important;
+  padding-right: 64px!important;
 }
 
 .ss-px-auto {
