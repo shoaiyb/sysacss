@@ -1,5 +1,5 @@
-.ss-amber,.ss-hvr-amber:hover {
-  color: #ffc107!important;
+.ss-transparent {
+  color: transparent;
 }
 
 .ss-aqua,.ss-hvr-aqua:hover {
@@ -114,8 +114,8 @@
   box-shadow: none!important;
 }
 
-.ss-bg-amber,.ss-hvr-bg-amber:hover {
-  background-color: #ffc107!important;
+.ss-bg-transparent {
+  background-color: transparent;
 }
 
 .ss-bg-aqua,.ss-hvr-bg-aqua:hover {
