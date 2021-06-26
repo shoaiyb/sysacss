@@ -1,5 +1,5 @@
-.ss-transparent {
-  color: transparent;
+.ss-transparent,.ss-hvr-transparent:hover {
+  color: transparent!important;
 }
 
 .ss-aqua,.ss-hvr-aqua:hover {
@@ -114,8 +114,8 @@
   box-shadow: none!important;
 }
 
-.ss-bg-transparent {
-  background-color: transparent;
+.ss-bg-transparent,.ss-hvr-bg-transparent:hover {
+  background-color: transparent!important;
 }
 
 .ss-bg-aqua,.ss-hvr-bg-aqua:hover {
@@ -238,8 +238,8 @@
   background-color: #ddffff!important;
 }
 
-.ss-border-amber,.ss-hvr-border-amber:hover {
-  border-color: #ffc107!important;
+.ss-border-transparent,.ss-hvr-border-transparent:hover {
+  border-color: transparent!important;
 }
 
 .ss-border-aqua,.ss-hvr-border-aqua:hover {
