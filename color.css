@@ -222,22 +222,6 @@
   background-color: #ffeb3b!important;
 }
 
-.ss-bg-pale-red,.ss-hvr-bg-pale-red:hover {
-  background-color: #ffdddd!important;
-}
-
-.ss-bg-pale-green,.ss-hvr-bg-pale-green:hover {
-  background-color: #ddffdd!important;
-}
-
-.ss-bg-pale-yellow,.ss-hvr-bg-pale-yellow:hover {
-  background-color: #ffffcc!important;
-}
-
-.ss-bg-pale-blue,.ss-hvr-bg-pale-blue:hover {
-  background-color: #ddffff!important;
-}
-
 .ss-border-transparent,.ss-hvr-border-transparent:hover {
   border-color: transparent!important;
 }
@@ -344,20 +328,4 @@
 
 .ss-border-yellow,.ss-hvr-border-yellow:hover {
   border-color: #ffeb3b!important;
-}
-
-.ss-border-pale-red,.ss-hvr-border-pale-red:hover {
-  border-color: #ffe7e7!important;
-}
-
-.ss-border-pale-green,.ss-hvr-border-pale-green:hover {
-  border-color: #e7ffe7!important;
-}
-
-.ss-border-pale-yellow,.ss-hvr-border-pale-yellow:hover {
-  border-color: #ffffcc!important;
-}
-
-.ss-border-pale-blue,.ss-hvr-border-pale-blue:hover {
-  border-color: #e7ffff!important;
 }
