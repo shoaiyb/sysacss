@@ -1,17 +1,45 @@
-.ss-opacity,.ss-hvr-opacity:hover {
-	opacity: 0.60;
+.ss-opacity-0,.ss-hvr-opacity-0:hover {
+	opacity: 0;
 }
 
-.ss-opacity-off,.ss-hvr-opacity-off:hover {
+.ss-opacity-1,.ss-hvr-opacity-1:hover {
+	opacity: 0.1;
+}
+
+.ss-opacity-2,.ss-hvr-opacity-2:hover {
+	opacity: 0.2;
+}
+
+.ss-opacity-3,.ss-hvr-opacity-3:hover {
+	opacity: 0.3;
+}
+
+.ss-opacity-4,.ss-hvr-opacity-4:hover {
+	opacity: 0.4;
+}
+
+.ss-opacity-5,.ss-hvr-opacity-5:hover {
+	opacity: 0.5;
+}
+
+.ss-opacity-6,.ss-hvr-opacity-6:hover {
+	opacity: 0.6;
+}
+
+.ss-opacity-7,.ss-hvr-opacity-7:hover {
+	opacity: 0.7;
+}
+
+.ss-opacity-8,.ss-hvr-opacity-8:hover {
+	opacity: 0.8;
+}
+
+.ss-opacity-9,.ss-hvr-opacity-9:hover {
+	opacity: 0.9;
+}
+
+.ss-opacity-10,.ss-hvr-opacity-10:hover {
 	opacity: 1;
-}
-
-.ss-opacity-max {
-	opacity: 0.25;
-}
-
-.ss-opacity-min {
-	opacity: 0.75;
 }
 
 .ss-greyscale-max,.ss-grayscale-max,.ss-hvr-greyscale:hover,.ss-hvr-grayscale:hover {
