@@ -135,15 +135,19 @@
 }
 
 .ss-bg-blue,.ss-hvr-blue:hover {
-  background-color: #2196F3!important;
+  background-color: #2563eb!important;
 }
 
 .ss-bg-light-blue,.ss-hvr-bg-light-blue:hover {
-  background-color: #87CEEB!important;
+  background-color: #3b82f6!important;
 }
 
-.ss-bg-brown,.ss-hvr-brown:hover {
+.ss-bg-brown,.ss-hvr-bg-brown:hover {
   background-color: #795548!important;
+}
+
+.ss-bg-light-brown,.ss-hvr-bg-brown:hover {
+  background-color: #!important;
 }
 
 .ss-bg-cyan,.ss-hvr-bg-cyan:hover {
@@ -151,31 +155,27 @@
 }
 
 .ss-bg-green,.ss-hvr-bg-green:hover {
-  background-color: #4CAF50!important;
+  background-color: #059669!important;
 }
 
 .ss-bg-light-green,.ss-hvr-bg-light-green:hover {
-  background-color: #8bc34a!important;
+  background-color: #10b981!important;
 }
 
 .ss-bg-grey,.ss-hvr-grey:hover {
-  background-color: #9e9e9e!important;
+  background-color: #4b5563!important;
 }
 
 .ss-bg-light-grey,.ss-hvr-bg-light-grey:hover {
-  background-color: #f1f1f1!important;
-}
-
-.ss-bg-blue-grey,.ss-hvr-bg-blue-grey:hover {
-  background-color: #607d8b!important;
-}
-
-.ss-bg-dark-grey,.ss-hvr-bg-dark-grey:hover {
-  background-color: #616161!important;
+  background-color: #6b7280!important;
 }
 
 .ss-bg-indigo,.ss-hvr-bg-indigo:hover {
   background-color: #3f51b5!important;
+}
+
+.ss-bg-light-indigo,.ss-hvr-bg-light-indigo:hover {
+  background-color: #!important;
 }
 
 .ss-bg-khaki,.ss-hvr-bg-khaki:hover {
@@ -194,7 +194,7 @@
   background-color: #ff9800!important;
 }
 
-.ss-bg-deep-orange,.ss-hvr-bg-deep-orange:hover {
+.ss-bg-light-orange,.ss-hvr-bg-light-orange:hover {
   background-color: #ff5722!important;
 }
 
@@ -306,7 +306,7 @@
   border-color: #ff9800!important;
 }
 
-.ss-border-deep-orange,.ss-hvr-border-deep-orange:hover {
+.ss-border-light-orange,.ss-hvr-border-light-orange:hover {
   border-color: #ff5722!important;
 }
 
@@ -314,11 +314,15 @@
   border-color: #e91e63!important;
 }
 
+.ss-border-light-pink,.ss-hvr-border-light-pink:hover {
+  border-color: #!important;
+}
+
 .ss-border-purple,.ss-hvr-border-purple:hover {
   border-color: #9c27b0!important;
 }
 
-.ss-border-deep-purple,.ss-hvr-border-deep-purple:hover {
+.ss-border-light-purple,.ss-hvr-border-light-purple:hover {
   border-color: #673ab7!important;
 }
 
