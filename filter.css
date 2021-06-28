@@ -1,0 +1,39 @@
+.ss-opacity,.ss-hvr-opacity:hover {
+	opacity: 0.60;
+}
+
+.ss-opacity-off,.ss-hvr-opacity-off:hover {
+	opacity: 1;
+}
+
+.ss-opacity-max {
+	opacity: 0.25;
+}
+
+.ss-opacity-min {
+	opacity: 0.75;
+}
+
+.ss-greyscale-max,.ss-grayscale-max,.ss-hvr-greyscale:hover,.ss-hvr-grayscale:hover {
+	filter: grayscale(100%);
+}
+
+.ss-greyscale,.ss-grayscale {
+	filter: grayscale(75%);
+}
+
+.ss-greyscale-min,.ss-grayscale-min {
+	filter: grayscale(50%);
+}
+
+.ss-sepia {
+	filter: sepia(75%);
+}
+
+.ss-sepia-max,.ss-hvr-sepia:hover {
+	filter: sepia(100%);
+}
+
+.ss-sepia-min {
+	filter: sepia(50%);
+}
