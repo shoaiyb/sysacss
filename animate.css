@@ -1,135 +1,135 @@
-.ss-spin {
-	animation: ss-spin 2s infinite linear;
-}
-
-@keyframes ss-spin {
-	0% {
-		transform: rotate(0deg);
-	}
-
-	100% {
-		transform: rotate(359deg);
-	}
-}
-
-.ss-anim-fading {
-	animation: animfading 10s infinite;
-}
-
-@keyframes animfading {
-	0% {
-		opacity: 0;
-	}
-
-	50% {
-		opacity: 1;
-	}
-
-	100% {
-		opacity: 0;
-	}
-}
-
-.ss-anim-opacity {
-	animation: animopac 0.8s;
-}
-
-@keyframes animopac {
-	from {
-		opacity: 0;
-	}
-
-	to {
-		opacity: 1;
-	}
-}
-
 .ss-anim-top {
-	position: relative;
-	animation: animtop 0.4s;
+  position: relative;
+  animation: animtop 0.4s;
 }
 
 @keyframes animtop {
-	from {
-		top: -300px;
-		opacity: 0;
-	}
-
-	to {
-		top: 0;
-		opacity: 1;
-	}
-}
-
-.ss-anim-left {
-	position: relative;
-	animation: animleft 0.4s;
-}
-
-@keyframes animleft {
-	from {
-		left: -300px;
-		opacity: 0;
-	}
-
-	to {
-		left: 0;
-		opacity: 1;
-	}
-}
-
-.ss-anim-right {
-	position: relative;
-	animation: animright 0.4s;
-}
-
-@keyframes animright {
-	from {
-		right: -300px;
-		opacity: 0;
-	}
-
-	to {
-		right: 0;
-		opacity: 1;
-	}
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .ss-anim-bottom {
-	position: relative;
-	animation: animbottom 0.4s;
+  position: relative;
+  animation: animbottom 0.4s;
 }
 
 @keyframes animbottom {
-	from {
-		bottom: -300px;
-		opacity: 0;
-	}
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
 
-	to {
-		bottom: 0;
-		opacity: 1;
-	}
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-left {
+  position: relative;
+  animation: animleft 0.4s;
+}
+
+@keyframes animleft {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-right {
+  position: relative;
+  animation: animright 0.4s;
+}
+
+@keyframes animright {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.ss-spin {
+  animation: ss-spin 2s infinite linear;
+}
+
+@keyframes ss-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(359deg);
+  }
+}
+
+.ss-anim-fading {
+  animation: animfading 10s infinite;
+}
+
+@keyframes animfading {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.ss-anim-opacity {
+  animation: animopac 0.8s;
+}
+
+@keyframes animopac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .ss-anim-zoom {
-	animation: animzoom 0.6s;
+  animation: animzoom 0.6s;
 }
 
 @keyframes animzoom {
-	from {
-		transform: scale(0);
-	}
+  from {
+    transform: scale(0);
+  }
 
-	to {
-		transform: scale(1);
-	}
+  to {
+    transform: scale(1);
+  }
 }
 
 .ss-anim-input {
-	transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 .ss-anim-input:focus {
-	width: 100%!important;
+  width: 100%!important;
 }
