@@ -1,9 +1,9 @@
 .ss-anim-top {
   position: relative;
-  animation: animtop 0.4s;
+  animation: anim-top 0.4s;
 }
 
-@keyframes animtop {
+@keyframes anim-top {
   from {
     top: -300px;
     opacity: 0;
@@ -17,10 +17,10 @@
 
 .ss-anim-bottom {
   position: relative;
-  animation: animbottom 0.4s;
+  animation: anim-bottom 0.4s;
 }
 
-@keyframes animbottom {
+@keyframes anim-bottom {
   from {
     bottom: -300px;
     opacity: 0;
@@ -34,10 +34,10 @@
 
 .ss-anim-left {
   position: relative;
-  animation: animleft 0.4s;
+  animation: anim-left 0.4s;
 }
 
-@keyframes animleft {
+@keyframes anim-left {
   from {
     left: -300px;
     opacity: 0;
@@ -51,10 +51,10 @@
 
 .ss-anim-right {
   position: relative;
-  animation: animright 0.4s;
+  animation: anim-right 0.4s;
 }
 
-@keyframes animright {
+@keyframes anim-right {
   from {
     right: -300px;
     opacity: 0;
@@ -63,6 +63,20 @@
   to {
     right: 0;
     opacity: 1;
+  }
+}
+
+.ss-anim-zoom {
+  animation: anim-zoom 0.6s;
+}
+
+@keyframes anim-zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
   }
 }
 
@@ -81,10 +95,10 @@
 }
 
 .ss-anim-fading {
-  animation: animfading 10s infinite;
+  animation: anim-fading 10s infinite;
 }
 
-@keyframes animfading {
+@keyframes anim-fading {
   0% {
     opacity: 0;
   }
@@ -99,30 +113,16 @@
 }
 
 .ss-anim-opacity {
-  animation: animopac 0.8s;
+  animation: anim-opac 0.8s;
 }
 
-@keyframes animopac {
+@keyframes anim-opac {
   from {
     opacity: 0;
   }
 
   to {
     opacity: 1;
-  }
-}
-
-.ss-anim-zoom {
-  animation: animzoom 0.6s;
-}
-
-@keyframes animzoom {
-  from {
-    transform: scale(0);
-  }
-
-  to {
-    transform: scale(1);
   }
 }
 
