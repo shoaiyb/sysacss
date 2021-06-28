@@ -1,93 +1,93 @@
 .ss-sepia-0,.ss-hvr-sepia-0:hover {
-	filter: sepia(0%);
+  filter: sepia(0%);
 }
 
 .ss-sepia-1,.ss-hvr-sepia-1:hover {
-	filter: sepia(10%);
+  filter: sepia(10%);
 }
 
 .ss-sepia-2,.ss-hvr-sepia-2:hover {
-	filter: sepia(20%);
+  filter: sepia(20%);
 }
 
 .ss-sepia-3,.ss-hvr-sepia-3:hover {
-	filter: sepia(30%);
+  filter: sepia(30%);
 }
 
 .ss-sepia-4,.ss-hvr-sepia-4:hover {
-	filter: sepia(40%);
+  filter: sepia(40%);
 }
 
 .ss-sepia-5,.ss-hvr-sepia-5:hover {
-	filter: sepia(50%);
+  filter: sepia(50%);
 }
 
 .ss-sepia-6,.ss-hvr-sepia-6:hover {
-	filter: sepia(60%);
+  filter: sepia(60%);
 }
 
 .ss-sepia-7,.ss-hvr-sepia-7:hover {
-	filter: sepia(70%);
+  filter: sepia(70%);
 }
 
 .ss-sepia-8,.ss-hvr-sepia-8:hover {
-	filter: sepia(80%);
+  filter: sepia(80%);
 }
 
 .ss-sepia-9,.ss-hvr-sepia-9:hover {
-	filter: sepia(90%);
+  filter: sepia(90%);
 }
 
 .ss-sepia-10,.ss-hvr-sepia-10:hover {
-	filter: sepia(100%);
+  filter: sepia(100%);
 }
 
 .ss-opacity-0,.ss-hvr-opacity-0:hover {
-	opacity: 0;
+  opacity: 0;
 }
 
 .ss-opacity-1,.ss-hvr-opacity-1:hover {
-	opacity: 0.1;
+  opacity: 0.1;
 }
 
 .ss-opacity-2,.ss-hvr-opacity-2:hover {
-	opacity: 0.2;
+  opacity: 0.2;
 }
 
 .ss-opacity-3,.ss-hvr-opacity-3:hover {
-	opacity: 0.3;
+  opacity: 0.3;
 }
 
 .ss-opacity-4,.ss-hvr-opacity-4:hover {
-	opacity: 0.4;
+  opacity: 0.4;
 }
 
 .ss-opacity-5,.ss-hvr-opacity-5:hover {
-	opacity: 0.5;
+  opacity: 0.5;
 }
 
 .ss-opacity-6,.ss-hvr-opacity-6:hover {
-	opacity: 0.6;
+  opacity: 0.6;
 }
 
 .ss-opacity-7,.ss-hvr-opacity-7:hover {
-	opacity: 0.7;
+  opacity: 0.7;
 }
 
 .ss-opacity-8,.ss-hvr-opacity-8:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 .ss-opacity-9,.ss-hvr-opacity-9:hover {
-	opacity: 0.9;
+  opacity: 0.9;
 }
 
 .ss-opacity-10,.ss-hvr-opacity-10:hover {
-	opacity: 1;
+  opacity: 1;
 }
 
 .ss-greyscale-0,.ss-hvr-greyscale-0:hover {
-	filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
 .ss-greyscale-1,.ss-hvr-greyscale-1:hover {
@@ -95,7 +95,7 @@
 }
 
 .ss-greyscale-2,.ss-hvr-greyscale-2:hover {
-	filter: grayscale(20%);
+  filter: grayscale(20%);
 }
 
 .ss-greyscale-3,.ss-hvr-greyscale-3:hover {
@@ -103,7 +103,7 @@
 }
 
 .ss-greyscale-4,.ss-hvr-greyscale-4:hover {
-	filter: grayscale(40%);
+  filter: grayscale(40%);
 }
 
 .ss-greyscale-5,.ss-hvr-greyscale-5:hover {
@@ -111,7 +111,7 @@
 }
 
 .ss-greyscale-6,.ss-hvr-greyscale-6:hover {
-	filter: grayscale(60%);
+  filter: grayscale(60%);
 }
 
 .ss-greyscale-7,.ss-hvr-greyscale-7:hover {
@@ -119,7 +119,7 @@
 }
 
 .ss-greyscale-8,.ss-hvr-greyscale-8:hover {
-	filter: grayscale(80%);
+  filter: grayscale(80%);
 }
 
 .ss-greyscale-9,.ss-hvr-greyscale-9:hover {
@@ -127,5 +127,5 @@
 }
 
 .ss-greyscale-10,.ss-hvr-greyscale-10:hover {
-	filter: grayscale(100%);
+  filter: grayscale(100%);
 }
