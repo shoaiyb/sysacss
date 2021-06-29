@@ -146,11 +146,8 @@
   color: #f59e0b!important;
 }
 
-.ss-transparent,.ss-hvr-none:hover {
-  background-color: transparent!important;
-}
-
 .ss-hvr-none:hover {
+  background-color: transparent!important;
   box-shadow: none!important;
 }
 
