@@ -1,133 +1,137 @@
-.ss-sepia-0,.ss-hvr-sepia-0:hover {
-  filter: sepia(0%);
+.ss-anim-top {
+  position: relative;
+  animation: anim-top 0.4s;
 }
 
-.ss-sepia-1,.ss-hvr-sepia-1:hover {
-  filter: sepia(10%);
+@keyframes anim-top {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 
-.ss-sepia-2,.ss-hvr-sepia-2:hover {
-  filter: sepia(20%);
+.ss-anim-bottom {
+  position: relative;
+  animation: anim-bottom 0.4s;
 }
 
-.ss-sepia-3,.ss-hvr-sepia-3:hover {
-  filter: sepia(30%);
+@keyframes anim-bottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
-.ss-sepia-4,.ss-hvr-sepia-4:hover {
-  filter: sepia(40%);
+.ss-anim-left {
+  position: relative;
+  animation: anim-left 0.4s;
 }
 
-.ss-sepia-5,.ss-hvr-sepia-5:hover {
-  filter: sepia(50%);
+@keyframes anim-left {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    left: 0;
+    opacity: 1;
+  }
 }
 
-.ss-sepia-6,.ss-hvr-sepia-6:hover {
-  filter: sepia(60%);
+.ss-anim-right {
+  position: relative;
+  animation: anim-right 0.4s;
 }
 
-.ss-sepia-7,.ss-hvr-sepia-7:hover {
-  filter: sepia(70%);
+@keyframes anim-right {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    right: 0;
+    opacity: 1;
+  }
 }
 
-.ss-sepia-8,.ss-hvr-sepia-8:hover {
-  filter: sepia(80%);
+.ss-anim-zoom {
+  animation: anim-zoom 0.6s;
 }
 
-.ss-sepia-9,.ss-hvr-sepia-9:hover {
-  filter: sepia(90%);
+@keyframes anim-zoom {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
 }
 
-.ss-sepia-10,.ss-hvr-sepia-10:hover {
-  filter: sepia(100%);
+.ss-spin {
+  animation: ss-spin 2s infinite linear;
 }
 
-.ss-opacity-0,.ss-hvr-opacity-0:hover {
-  opacity: 0;
+@keyframes ss-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  
+  100% {
+    transform: rotate(359deg);
+  }
 }
 
-.ss-opacity-1,.ss-hvr-opacity-1:hover {
-  opacity: 0.1;
+.ss-anim-fading {
+  animation: anim-fading 10s infinite;
 }
 
-.ss-opacity-2,.ss-hvr-opacity-2:hover {
-  opacity: 0.2;
+@keyframes anim-fading {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
-.ss-opacity-3,.ss-hvr-opacity-3:hover {
-  opacity: 0.3;
+.ss-anim-opacity {
+  animation: anim-opac 0.8s;
 }
 
-.ss-opacity-4,.ss-hvr-opacity-4:hover {
-  opacity: 0.4;
+@keyframes anim-opac {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
-.ss-opacity-5,.ss-hvr-opacity-5:hover {
-  opacity: 0.5;
+.ss-anim-input {
+  transition: width 0.4s ease-in-out;
 }
 
-.ss-opacity-6,.ss-hvr-opacity-6:hover {
-  opacity: 0.6;
-}
-
-.ss-opacity-7,.ss-hvr-opacity-7:hover {
-  opacity: 0.7;
-}
-
-.ss-opacity-8,.ss-hvr-opacity-8:hover {
-  opacity: 0.8;
-}
-
-.ss-opacity-9,.ss-hvr-opacity-9:hover {
-  opacity: 0.9;
-}
-
-.ss-opacity-10,.ss-hvr-opacity-10:hover {
-  opacity: 1;
-}
-
-.ss-grayscale-0,.ss-hvr-grayscale-0:hover {
-  filter: grayscale(0%);
-}
-
-.ss-grayscale-1,.ss-hvr-grayscale-1:hover {
-  filter: grayscale(10%);
-}
-
-.ss-grayscale-2,.ss-hvr-grayscale-2:hover {
-  filter: grayscale(20%);
-}
-
-.ss-grayscale-3,.ss-hvr-grayscale-3:hover {
-  filter: grayscale(30%);
-}
-
-.ss-grayscale-4,.ss-hvr-grayscale-4:hover {
-  filter: grayscale(40%);
-}
-
-.ss-grayscale-5,.ss-hvr-grayscale-5:hover {
-  filter: grayscale(50%);
-}
-
-.ss-grayscale-6,.ss-hvr-grayscale-6:hover {
-  filter: grayscale(60%);
-}
-
-.ss-grayscale-7,.ss-hvr-grayscale-7:hover {
-  filter: grayscale(70%);
-}
-
-.ss-grayscale-8,.ss-hvr-grayscale-8:hover {
-  filter: grayscale(80%);
-}
-
-.ss-grayscale-9,.ss-hvr-grayscale-9:hover {
-  filter: grayscale(90%);
-}
-
-.ss-grayscale-10,.ss-hvr-grayscale-10:hover {
-  filter: grayscale(100%);
+.ss-anim-input:focus {
+  width: 100%!important;
 }
 
 .ss-m-0 {
