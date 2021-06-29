@@ -43,7 +43,7 @@
 }
 
 .ss-light-green,.ss-hvr-light-green:hover {
-  color: ##10b981!important;
+  color: #10b981!important;
 }
 
 .ss-gray,.ss-hvr-gray:hover {
@@ -51,7 +51,7 @@
 }
 
 .ss-light-gray,.ss-hvr-light-gray:hover {
-  color: ##5d6673!important;
+  color: #5d6673!important;
 }
 
 .ss-indigo,.ss-hvr-indigo:hover {
@@ -59,7 +59,7 @@
 }
 
 .ss-light-indigo,.ss-hvr-light-indigo:hover {
-  color: ##6158e8!important;
+  color: #6158e8!important;
 }
 
 .ss-khaki,.ss-hvr-khaki:hover {
@@ -67,7 +67,7 @@
 }
 
 .ss-light-khaki,.ss-hvr-light-khaki:hover {
-  color: ##f2e898!important;
+  color: #f2e898!important;
 }
 
 .ss-lime,.ss-hvr-lime:hover {
@@ -160,7 +160,7 @@
 
 .ss-bg-aqua,.ss-hvr-bg-aqua:hover {
   background-color: #00ffff!important;
-}a6ffff
+}
 
 .ss-bg-light-aqua,.ss-hvr-bg-light-aqua:hover {
   background-color: #a6ffff!important;
@@ -199,7 +199,7 @@
 }
 
 .ss-bg-light-green,.ss-hvr-bg-light-green:hover {
-  background-color: ##10b981!important;
+  background-color: #10b981!important;
 }
 
 .ss-bg-gray,.ss-hvr-gray:hover {
@@ -207,7 +207,7 @@
 }
 
 .ss-bg-light-gray,.ss-hvr-light-gray:hover {
-  background-color: ##5d6673!important;
+  background-color: #5d6673!important;
 }
 
 .ss-bg-indigo,.ss-hvr-bg-indigo:hover {
@@ -215,7 +215,7 @@
 }
 
 .ss-bg-light-indigo,.ss-hvr-bg-light-indigo:hover {
-  background-color: ##6158e8!important;
+  background-color: #6158e8!important;
 }
 
 .ss-bg-khaki,.ss-hvr-bg-khaki:hover {
@@ -223,7 +223,7 @@
 }
 
 .ss-bg-light-khaki,.ss-hvr-bg-light-khaki:hover {
-  background-color: ##f2e898!important;
+  background-color: #f2e898!important;
 }
 
 .ss-bg-lime,.ss-hvr-bg-lime:hover {
@@ -347,7 +347,7 @@
 }
 
 .ss-border-light-green,.ss-hvr-border-light-green:hover {
-  border-color: ##10b981!important;
+  border-color: #10b981!important;
 }
 
 .ss-border-gray,.ss-hvr-border-gray:hover {
@@ -355,7 +355,7 @@
 }
 
 .ss-border-light-gray,.ss-hvr-border-light-gray:hover {
-  border-color: ##5d6673!important;
+  border-color: #5d6673!important;
 }
 
 .ss-border-indigo,.ss-hvr-border-indigo:hover {
@@ -363,7 +363,7 @@
 }
 
 .ss-border-light-indigo,.ss-hvr-border-light-indigo:hover {
-  border-color: ##6158e8!important;
+  border-color: #6158e8!important;
 }
 
 .ss-border-khaki,.ss-hvr-border-khaki:hover {
@@ -371,7 +371,7 @@
 }
 
 .ss-border-light-khaki,.ss-hvr-border-light-khaki:hover {
-  border-color: ##f2e898!important;
+  border-color: #f2e898!important;
 }
 
 .ss-border-lime,.ss-hvr-border-lime:hover {
