@@ -167,11 +167,11 @@
   background-color: #000!important;
 }
 
-.ss-bg-blue,.ss-hvr-blue:hover {
+.ss-bg-blue,.ss-hvr-bg-blue:hover {
   background-color: #2563eb!important;
 }
 
-.ss-bg-light-blue,.ss-hvr-light-blue:hover {
+.ss-bg-light-blue,.ss-hvr-bg-light-blue:hover {
   background-color: #3b82f6!important;
 }
 
@@ -199,11 +199,11 @@
   background-color: #10b981!important;
 }
 
-.ss-bg-gray,.ss-hvr-gray:hover {
+.ss-bg-gray,.ss-hvr-bg-gray:hover {
   background-color: #4b5563!important;
 }
 
-.ss-bg-light-gray,.ss-hvr-light-gray:hover {
+.ss-bg-light-gray,.ss-hvr-bg-light-gray:hover {
   background-color: #5d6673!important;
 }
 
