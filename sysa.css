@@ -1,3 +1,135 @@
+.ss-sepia-0,.ss-hvr-sepia-0:hover {
+  filter: sepia(0%);
+}
+
+.ss-sepia-1,.ss-hvr-sepia-1:hover {
+  filter: sepia(10%);
+}
+
+.ss-sepia-2,.ss-hvr-sepia-2:hover {
+  filter: sepia(20%);
+}
+
+.ss-sepia-3,.ss-hvr-sepia-3:hover {
+  filter: sepia(30%);
+}
+
+.ss-sepia-4,.ss-hvr-sepia-4:hover {
+  filter: sepia(40%);
+}
+
+.ss-sepia-5,.ss-hvr-sepia-5:hover {
+  filter: sepia(50%);
+}
+
+.ss-sepia-6,.ss-hvr-sepia-6:hover {
+  filter: sepia(60%);
+}
+
+.ss-sepia-7,.ss-hvr-sepia-7:hover {
+  filter: sepia(70%);
+}
+
+.ss-sepia-8,.ss-hvr-sepia-8:hover {
+  filter: sepia(80%);
+}
+
+.ss-sepia-9,.ss-hvr-sepia-9:hover {
+  filter: sepia(90%);
+}
+
+.ss-sepia-10,.ss-hvr-sepia-10:hover {
+  filter: sepia(100%);
+}
+
+.ss-opacity-0,.ss-hvr-opacity-0:hover {
+  opacity: 0;
+}
+
+.ss-opacity-1,.ss-hvr-opacity-1:hover {
+  opacity: 0.1;
+}
+
+.ss-opacity-2,.ss-hvr-opacity-2:hover {
+  opacity: 0.2;
+}
+
+.ss-opacity-3,.ss-hvr-opacity-3:hover {
+  opacity: 0.3;
+}
+
+.ss-opacity-4,.ss-hvr-opacity-4:hover {
+  opacity: 0.4;
+}
+
+.ss-opacity-5,.ss-hvr-opacity-5:hover {
+  opacity: 0.5;
+}
+
+.ss-opacity-6,.ss-hvr-opacity-6:hover {
+  opacity: 0.6;
+}
+
+.ss-opacity-7,.ss-hvr-opacity-7:hover {
+  opacity: 0.7;
+}
+
+.ss-opacity-8,.ss-hvr-opacity-8:hover {
+  opacity: 0.8;
+}
+
+.ss-opacity-9,.ss-hvr-opacity-9:hover {
+  opacity: 0.9;
+}
+
+.ss-opacity-10,.ss-hvr-opacity-10:hover {
+  opacity: 1;
+}
+
+.ss-grayscale-0,.ss-hvr-grayscale-0:hover {
+  filter: grayscale(0%);
+}
+
+.ss-grayscale-1,.ss-hvr-grayscale-1:hover {
+  filter: grayscale(10%);
+}
+
+.ss-grayscale-2,.ss-hvr-grayscale-2:hover {
+  filter: grayscale(20%);
+}
+
+.ss-grayscale-3,.ss-hvr-grayscale-3:hover {
+  filter: grayscale(30%);
+}
+
+.ss-grayscale-4,.ss-hvr-grayscale-4:hover {
+  filter: grayscale(40%);
+}
+
+.ss-grayscale-5,.ss-hvr-grayscale-5:hover {
+  filter: grayscale(50%);
+}
+
+.ss-grayscale-6,.ss-hvr-grayscale-6:hover {
+  filter: grayscale(60%);
+}
+
+.ss-grayscale-7,.ss-hvr-grayscale-7:hover {
+  filter: grayscale(70%);
+}
+
+.ss-grayscale-8,.ss-hvr-grayscale-8:hover {
+  filter: grayscale(80%);
+}
+
+.ss-grayscale-9,.ss-hvr-grayscale-9:hover {
+  filter: grayscale(90%);
+}
+
+.ss-grayscale-10,.ss-hvr-grayscale-10:hover {
+  filter: grayscale(100%);
+}
+
 .ss-m-0 {
   margin: 0!important;
 }
