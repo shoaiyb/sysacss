@@ -233,19 +233,10 @@ h1,h2,h3,h4,h5,h6 {
   margin: 10px 0;
 }
 
-.ss-wide {
-  letter-spacing: 4px;
-}
-
 hr {
   border: 0;
   border-top: 1px solid #eee;
   margin: 20px 0;
-}
-
-.ss-image {
-  max-width: 100%;
-  height: auto;
 }
 
 img {
@@ -256,12 +247,13 @@ a {
   color: inherit;
 }
 
-.ss-uppercase,.ss-hvr-uppercase:hover {
-  text-transform: uppercase!important;
+.ss-image {
+  max-width: 100%;
+  height: auto;
 }
 
-.ss-lowercase,.ss-hvr-lowercase:hover {
-  text-transform: lowercase!important;
+.ss-wide {
+  letter-spacing: 4px;
 }
 
 .ss-underline,.ss-hvr-underline:hover {
@@ -272,7 +264,15 @@ a {
   text-decoration: none!important;
 }
 
-.ss-capitalize,.ss-hvr-capitalize:hover {
+.ss-uppercase {
+  text-transform: uppercase!important;
+}
+
+.ss-lowercase {
+  text-transform: lowercase!important;
+}
+
+.ss-capitalize {
   text-transform: capitalize!important;
 }
 
