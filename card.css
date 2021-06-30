@@ -7,17 +7,17 @@
 }
 
 .ss-card-2 {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 6px 15px 0 rgba(0,0,0,0.16),0 6px 30px 0 rgba(0,0,0,0.26);
 }
 
 .ss-card-3 {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.2),0 8px 40px 0 rgba(0,0,0,0.33);
 }
 
 .ss-card-4 {
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 10px 25px 0 rgba(0,0,0,0.16),0 10px 50px 0 rgba(0,0,0,0.40);
 }
 
 .ss-card-5 {
-  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 12px 30px 0 rgba(0,0,0,0.2),0 12px 60px 0 rgba(0,0,0,0.47);
 }
