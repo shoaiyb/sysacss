@@ -37,3 +37,8 @@
 .ss-btn.ss-disabled:hover,.ss-btn:disabled:hover {
   box-shadow: none;
 }
+
+.ss-button:hover {
+  color: #000!important;
+  background-color: #ccc!important;
+}
