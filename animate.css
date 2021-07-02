@@ -216,6 +216,14 @@
   }
 }
 
+.ss-anim-input {
+  transition: width 0.4s ease-in-out;
+}
+
+.ss-anim-input:focus {
+  width: 100%!important;
+}
+
 .ss-anim-jello {
   animation: anim-jello 0.9s both;
 }
@@ -242,12 +250,4 @@
   100% {
     transform: scale3d(1, 1, 1);
   }
-}
-
-.ss-anim-input {
-  transition: width 0.4s ease-in-out;
-}
-
-.ss-anim-input:focus {
-  width: 100%!important;
 }
