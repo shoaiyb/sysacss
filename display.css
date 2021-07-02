@@ -11,6 +11,30 @@
   z-index: 2;
 }
 
+.ss-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+}
+
+.ss-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+}
+
+.ss-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
 .ss-display-topleft {
   position: absolute;
   left: 0;
@@ -35,30 +59,6 @@
   bottom: 0;
 }
 
-.ss-display-middle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-}
-
-.ss-display-left {
-  position: absolute;
-  top: 50%;
-  left: 0%;
-  transform: translate(0%,-50%);
-  -ms-transform: translate(-0%,-50%);
-}
-
-.ss-display-right {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(0%,-50%);
-  -ms-transform: translate(0%,-50%);
-}
-
 .ss-display-topmiddle {
   position: absolute;
   left: 50%;
@@ -75,15 +75,15 @@
   -ms-transform: translate(-50%,0%);
 }
 
-.ss-display-container:hover .ss-display-hover {
+.ss-display-container:hover .ss-display-hvr {
   display: block;
 }
 
-.ss-display-container:hover span.ss-display-hover {
+.ss-display-container:hover span.ss-display-hvr {
   display: inline-block;
 }
 
-.ss-display-hover {
+.ss-display-hvr {
   display: none;
 }
 
