@@ -187,6 +187,20 @@ html {
   overflow-x: hidden;
 }
 
+hr {
+  border: 0;
+  border-top: 1px solid #eee;
+  margin: 20px 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+}
+
 h1 {
   font-size: 36px;
 }
@@ -211,12 +225,18 @@ h6 {
   font-size: 16px;
 }
 
-.ss-serif {
-  font-family: serif;
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
 }
 
 .ss-sans {
   font-family: sans-serif;
+}
+
+.ss-serif {
+  font-family: serif;
 }
 
 .ss-cursive {
@@ -225,55 +245,6 @@ h6 {
 
 .ss-monospace {
   font-family: monospace;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  font-family: "Segoe UI",Arial,sans-serif;
-  font-weight: 400;
-  margin: 10px 0;
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid #eee;
-  margin: 20px 0;
-}
-
-img {
-  vertical-align: middle;
-}
-
-a {
-  color: inherit;
-}
-
-.ss-image {
-  max-width: 100%;
-  height: auto;
-}
-
-.ss-wide {
-  letter-spacing: 4px;
-}
-
-.ss-underline,.ss-hvr-underline:hover {
-  text-decoration: underline!important;
-}
-
-.ss-no-underline,.ss-hvr-no-underline:hover {
-  text-decoration: none!important;
-}
-
-.ss-uppercase {
-  text-transform: uppercase!important;
-}
-
-.ss-lowercase {
-  text-transform: lowercase!important;
-}
-
-.ss-capitalize {
-  text-transform: capitalize!important;
 }
 
 .ss-tiny {
@@ -322,4 +293,33 @@ a {
 
 .ss-center {
   text-align: center!important;
+}
+
+.ss-wide {
+  letter-spacing: 4px;
+}
+
+.ss-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.ss-uppercase {
+  text-transform: uppercase!important;
+}
+
+.ss-lowercase {
+  text-transform: lowercase!important;
+}
+
+.ss-capitalize {
+  text-transform: capitalize!important;
+}
+
+.ss-underline,.ss-hvr-underline:hover {
+  text-decoration: underline!important;
+}
+
+.ss-no-underline,.ss-hvr-no-underline:hover {
+  text-decoration: none!important;
 }
