@@ -1,0 +1,92 @@
+.ss-overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+}
+
+.ss-display-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ss-display-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ss-display-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.ss-display-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.ss-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.ss-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+}
+
+.ss-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+}
+
+.ss-display-topmiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%);
+}
+
+.ss-display-bottommiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%);
+}
+
+.ss-display-container:hover .ss-display-hover {
+  display: block;
+}
+
+.ss-display-container:hover span.ss-display-hover {
+  display: inline-block;
+}
+
+.ss-display-hover {
+  display: none;
+}
+
+.ss-display-position {
+  position: absolute;
+}
