@@ -81,10 +81,10 @@
 }
 
 .ss-anim-kenburns {
-  animation: ss-kenburns 5s ease-out both;
+  animation: anim-kenburns 5s ease-out both;
 }
 
-@keyframes ss-kenburns {
+@keyframes anim-kenburns {
   0% {
     transform: scale(1) translateY(0);
     transform-origin: 50% 16%;
@@ -96,10 +96,10 @@
 }
 
 .ss-anim-bgpan {
-  animation: ss-bgpan 8s both;
+  animation: anim-bgpan 8s both;
 }
 
-@keyframes ss-bgpan {
+@keyframes anim-bgpan {
   0% {
     background-position: 0% 0%;
   }
@@ -109,10 +109,10 @@
 }
 
 .ss-anim-bounce {
-  animation: ss-bounce 0.9s both;
+  animation: anim-bounce 0.9s both;
 }
 
-@keyframes ss-bounce {
+@keyframes anim-bounce {
   0% {
     transform: translateY(-45px);
     animation-timing-function: ease-in;
@@ -152,10 +152,10 @@
 }
 
 .ss-anim-ping {
-  animation: ss-ping 0.8s ease-in-out infinite both;
+  animation: anim-ping 0.8s ease-in-out infinite both;
 }
 
-@keyframes ss-ping {
+@keyframes anim-ping {
   0% {
     transform: scale(0.2);
     opacity: 0.8;
@@ -171,10 +171,10 @@
 }
 
 .ss-anim-jello {
-	animation: ss-jello 0.9s both;
+  animation: anim-jello 0.9s both;
 }
 
-@keyframes ss-jello {
+@keyframes anim-jello {
   0% {
     transform: scale3d(1, 1, 1);
   }
@@ -199,10 +199,10 @@
 }
 
 .ss-spin {
-  animation: ss-spin 2s infinite linear;
+  animation: anim-spin 2s infinite linear;
 }
 
-@keyframes ss-spin {
+@keyframes anim-spin {
   0% {
     transform: rotate(0deg);
   }
