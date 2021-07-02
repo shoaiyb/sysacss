@@ -90,3 +90,202 @@
 .ss-display-position {
   position: absolute;
 }
+
+.ss-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ss-ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ss-ul li:last-child {
+  border-bottom: none;
+}
+
+.ss-tooltip,.ss-display-container {
+  position: relative;
+}
+
+.ss-tooltip .ss-text {
+  display: none;
+}
+
+.ss-tooltip:hover .ss-text {
+  display: inline-block;
+}
+
+.ss-ripple:active {
+  opacity: 0.5;
+}
+
+.ss-ripple {
+  transition: opacity 0s;
+}
+
+.ss-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.ss-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.ss-dropdown-click,.ss-dropdown-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ss-dropdown-hover:hover .ss-dropdown-content {
+  display: block;
+}
+
+.ss-dropdown-hover:first-child,.ss-dropdown-click:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-hover:hover > .ss-button:first-child,.ss-dropdown-click:hover > .ss-button:first-child {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.ss-check,.ss-radio {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  top: 6px;
+}
+
+.ss-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto;
+}
+
+.ss-bar-block .ss-dropdown-hover,.ss-bar-block .ss-dropdown-click {
+  width: 100%;
+}
+
+.ss-bar-block .ss-dropdown-hover .ss-dropdown-content,.ss-bar-block .ss-dropdown-click .ss-dropdown-content {
+  min-width: 100%;
+}
+
+.ss-bar-block .ss-dropdown-hover .ss-button,.ss-bar-block .ss-dropdown-click .ss-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+.ss-main,#main {
+  transition: margin-left .4s;
+}
+
+.ss-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.ss-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
+}
+
+.ss-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ss-center .ss-bar {
+  display: inline-block;
+  width: auto;
+}
+
+.ss-bar .ss-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+.ss-bar .ss-dropdown-hover,.ss-bar .ss-dropdown-click {
+  position: static;
+  float: left;
+}
+
+.ss-bar .ss-button {
+  white-space: normal;
+}
+
+.ss-bar-block .ss-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+
+.ss-bar-block.ss-center .ss-bar-item {
+  text-align: center;
+}
+
+.ss-block {
+  display: block;
+  width: 100%;
+}
+
+.ss-responsive {
+  display: block;
+  overflow-x: auto;
+}
+
+.ss-container:after,.ss-container:before,.ss-panel:after,.ss-panel:before,.ss-row:after,.ss-row:before,.ss-row-padding:after,.ss-row-padding:before,
+.ss-cell-row:before,.ss-cell-row:after,.ss-clear:after,.ss-clear:before,.ss-bar:before,.ss-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
