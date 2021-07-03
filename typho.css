@@ -323,3 +323,36 @@ h1,h2,h3,h4,h5,h6 {
 .ss-no-underline,.ss-hvr-no-underline:hover {
   text-decoration: none!important;
 }
+
+.ss-dropdown-click,.ss-dropdown-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ss-dropdown-hover:hover .ss-dropdown-content {
+  display: block;
+}
+
+.ss-dropdown-hover:first-child,.ss-dropdown-click:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-hover:hover > .ss-button:first-child,.ss-dropdown-click:hover > .ss-button:first-child {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
