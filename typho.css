@@ -476,6 +476,10 @@ h1,h2,h3,h4,h5,h6 {
   clear: both;
 }
 
+.ss-row-padding,.ss-row-padding>.ss-half,.ss-row-padding>.ss-third,.ss-row-padding>.ss-twothird,.ss-row-padding>.ss-threequarter,.ss-row-padding>.ss-quarter,.ss-row-padding>.ss-col {
+  padding: 0 8px;
+}
+
 .ss-container,.ss-panel {
   padding: 0.01em 16px;
 }
