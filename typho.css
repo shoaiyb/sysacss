@@ -479,6 +479,41 @@ h1,h2,h3,h4,h5,h6 {
 border-bottom: none;
 }
 
+.ss-tooltip,.ss-display-container {
+  position: relative;
+}
+
+.ss-tooltip .ss-text {
+  display: none;
+}
+
+.ss-tooltip:hover .ss-text {
+  display: inline-block;
+}
+
+.ss-ripple:active {
+  opacity: 0.5;
+}
+
+.ss-ripple {
+  transition: opacity 0s;
+}
+
+.ss-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.ss-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
 .ss-dropdown-click,.ss-dropdown-hover {
   position: relative;
   display: inline-block;
