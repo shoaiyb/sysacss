@@ -1,3 +1,73 @@
+.ss-cell {
+	display: table-cell;
+}
+
+.ss-cell-row {
+	display: table;
+	width: 100%;
+}
+
+.ss-cell-top {
+	vertical-align: top;
+}
+
+.ss-cell-middle {
+	vertical-align: middle;
+}
+
+.ss-cell-bottom {
+	vertical-align: bottom;
+}
+
+.ss-rest {
+	overflow: hidden;
+}
+
+.ss-stretch {
+	margin-left: -16px;
+	margin-right: -16px;
+}
+
+.ss-content,.ss-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ss-content {
+	max-width: 980px;
+}
+
+.ss-auto {
+	max-width: 1140px;
+}
+
+.ss-responsive {
+	display: block;
+	overflow-x: auto;
+}
+
+.ss-input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.ss-select {
+  padding: 9px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.ss-check,.ss-radio {
+	width: 24px;
+	height: 24px;
+	position: relative;
+	top: 6px;
+}
+
 .ss-overlay {
   position: fixed;
   display: none;
