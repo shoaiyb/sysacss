@@ -539,41 +539,41 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media (max-width:1205px) {
-	.ss-auto {
-		max-width: 95%;
-	}
+  .ss-auto {
+    max-width: 95%;
+  }
 }
 
 @media (max-width:600px) {
-	.ss-modal-content {
-		margin: 0 10px;
-		width: auto!important;
-	}
+  .ss-modal-content {
+    margin: 0 10px;
+    width: auto!important;
+  }
 
-	.ss-modal {
-		padding-top: 30px;
-	}
+  .ss-modal {
+    padding-top: 30px;
+  }
 
-	.ss-dropdown-hover.ss-mobile .ss-dropdown-content,.ss-dropdown-click.ss-mobile .ss-dropdown-content {
-		position: relative;
-	}
+  .ss-dropdown-hover.ss-mobile .ss-dropdown-content,.ss-dropdown-click.ss-mobile .ss-dropdown-content {
+    position: relative;
+  }
 
-	.ss-hide-small {
-		display: none!important;
-	}
+  .ss-hide-small {
+    display: none!important;
+  }
 
-	.ss-mobile {
-		display: block;
-		width: 100%!important;
-	}
+  .ss-mobile {
+    display: block;
+    width: 100%!important;
+  }
 
-	.ss-bar-item.ss-mobile,.ss-dropdown-hover.ss-mobile,.ss-dropdown-click.ss-mobile {
-		text-align: center;
-	}
+  .ss-bar-item.ss-mobile,.ss-dropdown-hover.ss-mobile,.ss-dropdown-click.ss-mobile {
+    text-align: center;
+  }
 
-	.ss-dropdown-hover.ss-mobile,.ss-dropdown-hover.ss-mobile .ss-btn,.ss-dropdown-hover.ss-mobile .ss-button,.ss-dropdown-click.ss-mobile,.ss-dropdown-click.ss-mobile .ss-btn,.ss-dropdown-click.ss-mobile .ss-button {
-		width: 100%;
-	}
+  .ss-dropdown-hover.ss-mobile,.ss-dropdown-hover.ss-mobile .ss-btn,.ss-dropdown-hover.ss-mobile .ss-button,.ss-dropdown-click.ss-mobile,.ss-dropdown-click.ss-mobile .ss-btn,.ss-dropdown-click.ss-mobile .ss-button {
+    width: 100%;
+  }
 }
 
 @media (max-width:768px) {
