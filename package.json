@@ -9,8 +9,7 @@
   },
   "description": "Free And Open Source Responsive Modern CSS Framework",
   "main": "sysa.css",
-  "unpkg": "css/bulma.css",
-  "style": "/css/bulma.min.css",
+  "style": "/css/sysa.min.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shoaiyb/css.git"
