@@ -333,6 +333,18 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: none!important;
 }
 
+.ss-lighter,.ss-hvr-lighter:hover {
+  font-weight: 200!important;
+}
+
+.ss-bold,.ss-hvr-bold:hover {
+  font-weight: 700!important;
+}
+
+.ss-bolder,.ss-hvr-bolder:hover {
+  font-weight: 900!important;
+}
+
 .ss-circle {
   border-radius: 50%;
 }
