@@ -1,0 +1,36 @@
+{
+  "name": "sysacss",
+  "version": "1.0.0",
+  "homepage": "https://css.sysa.ml",
+  "author": {
+    "name": "shoaiyb sysa",
+    "email": "mail@sysa.ml",
+    "url": "https://sysa.ml"
+  },
+  "description": "Free And Open Source Responsive Modern CSS Framework",
+  "main": "sysa.css",
+  "unpkg": "css/bulma.css",
+  "style": "/css/bulma.min.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaiyb/css.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "sass",
+    "sysacss",
+    "responsive",
+    "framework"
+  ],
+  "bugs": {
+    "url": "https://github.com/shoaiyb/css/issues"
+  },
+  "files": [
+    "css",
+    "sass",
+    "sysa.css",
+    "LICENSE",
+    "README.md"
+  ]
+}
