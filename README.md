@@ -8,11 +8,11 @@ Free and Open Source Responsive Modern CSS Framework.
 
 ## CSS only
 
-SYSACSS is a **CSS** framework. As such, the sole output is a single CSS file: [sysa.css](https://github.com/shoaiyb/css/blob/master/sysa.css)
+SYSACSS is smaller, faster and easier to use **CSS** framework.       
+As such, the sole output is a single CSS file: [sysa.css](https://github.com/shoaiyb/css/blob/master/sysa.css)
 
 
-There is **no** JavaScript included. People generally want to use their own JS implementation (and usually already have one). SYSACSS can be considered "environment agnostic": it's just the style layer on top of the logic.
-
+SYSACSS is standard CSS only (No jQuery or JavaScript library).
 
 ## Browser Support
 
