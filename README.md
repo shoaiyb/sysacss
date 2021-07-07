@@ -45,7 +45,6 @@ npm install sysacss
 [jsDelivr.com](https://www.jsdelivr.com/package/npm/sysacss)         
 [unpkg](https://unpkg.com/sysacss)
 
-Feel free to raise an issue or submit a pull request.
 
 ## Documentation
 
