@@ -9,7 +9,7 @@
   },
   "description": "Free And Open Source Responsive Modern CSS Framework",
   "main": "sysa.css",
-  "style": "/css/sysa.min.css",
+  "style": "sysa.min.css",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shoaiyb/css.git"
@@ -17,7 +17,6 @@
   "license": "MIT",
   "keywords": [
     "css",
-    "sass",
     "sysacss",
     "responsive",
     "framework"
