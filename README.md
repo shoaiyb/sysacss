@@ -1,14 +1,6 @@
 ## SYSACSS
 Free and Open Source Responsive Modern CSS Framework.       
 
-
-[![SYSA Stars](https://img.shields.io/github/stars/shoaiyb/css)](https://github.com/shoaiyb/css/stargazers)
-![](https://img.shields.io/github/size/shoaiyb/css/sysa.min.css)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shoaiyb/css?sort=semver)
-[![GitHub license](https://img.shields.io/github/license/shoaiyb/css)](https://github.com/shoaiyb/css/blob/master/LICENSE)
-[![SYSACSS Is A Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss-blue)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcss.sysa.ml%2F%40latest%2Fsysa.css&profile=css3svg&usermedium=all&warning=no&vextwarning=&lang=en)
-
-
 <img src="https://css.sysa.ml/logo-text.png" alt="SYSACSS" style="max-width:100%;" width="600">
 
 
@@ -44,6 +36,14 @@ npm install sysacss
 
 [jsDelivr.com](https://www.jsdelivr.com/package/npm/sysacss)         
 [unpkg](https://unpkg.com/sysacss)
+
+
+## Status
+[![SYSA Stars](https://img.shields.io/github/stars/shoaiyb/css)](https://github.com/shoaiyb/css/stargazers)
+![](https://img.shields.io/github/size/shoaiyb/css/sysa.min.css)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shoaiyb/css?sort=semver)
+[![GitHub license](https://img.shields.io/github/license/shoaiyb/css)](https://github.com/shoaiyb/css/blob/master/LICENSE)
+[![SYSACSS Is A Valid CSS!](https://jigsaw.w3.org/css-validator/images/vcss-blue)](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcss.sysa.ml%2F%40latest%2Fsysa.css&profile=css3svg&usermedium=all&warning=no&vextwarning=&lang=en)
 
 
 ## Documentation
