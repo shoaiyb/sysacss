@@ -145,15 +145,18 @@ Updating, improving and correcting the documentation
 
 -->
 
+<!--
 ## Styleguides
 ### Commit Messages
 <!-- TODO
 
 -->
-
+<!--
 ## Join The Project Team
 <!-- TODO -->
 
 <!-- omit in toc -->
+<!--
 ## Attribution
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+-->
