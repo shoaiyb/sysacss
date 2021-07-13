@@ -108,6 +108,8 @@ hr {
 }
 
 button,input,select,textarea,optgroup {
+  outline: none;
+  box-shadow: none;
   font: inherit;
   margin: 0;
 }
