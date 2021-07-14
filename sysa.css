@@ -2426,150 +2426,150 @@ h1,h2,h3,h4,h5,h6 {
   background-color: #f59e0b!important;
 }
 
-.ss-border-transparent,.ss-hvr-border-transparent:hover {
+.ss-bd-transparent,.ss-hvr-bd-transparent:hover {
   border-color: transparent!important;
 }
 
-.ss-border-aqua,.ss-hvr-border-aqua:hover {
+.ss-bd-aqua,.ss-hvr-bd-aqua:hover {
   border-color: #00ffff!important;
 }
 
-.ss-border-light-aqua,.ss-hvr-border-light-aqua:hover {
+.ss-bd-light-aqua,.ss-hvr-bd-light-aqua:hover {
   border-color: #a6ffff!important;
 }
 
-.ss-border-black,.ss-hvr-border-black:hover {
+.ss-bd-black,.ss-hvr-bd-black:hover {
   border-color: #000!important;
 }
 
-.ss-border-blue,.ss-hvr-border-blue:hover {
+.ss-bd-blue,.ss-hvr-bd-blue:hover {
   border-color: #2563eb!important;
 }
 
-.ss-border-light-blue,.ss-hvr-border-light-blue:hover {
+.ss-bd-light-blue,.ss-hvr-bd-light-blue:hover {
   border-color: #3b82f6!important;
 }
 
-.ss-border-brown,.ss-hvr-border-brown:hover {
+.ss-bd-brown,.ss-hvr-bd-brown:hover {
   border-color: #795548!important;
 }
 
-.ss-border-light-brown,.ss-hvr-border-light-brown:hover {
+.ss-bd-light-brown,.ss-hvr-bd-light-brown:hover {
   border-color: #86665a!important;
 }
 
-.ss-border-cyan,.ss-hvr-border-cyan:hover {
+.ss-bd-cyan,.ss-hvr-bd-cyan:hover {
   border-color: #00bcd4!important;
 }
 
-.ss-border-light-cyan,.ss-hvr-border-light-cyan:hover {
+.ss-bd-light-cyan,.ss-hvr-bd-light-cyan:hover {
   border-color: #19c3d8!important;
 }
 
-.ss-border-green,.ss-hvr-border-green:hover {
+.ss-bd-green,.ss-hvr-bd-green:hover {
   border-color: #059669!important;
 }
 
-.ss-border-light-green,.ss-hvr-border-light-green:hover {
+.ss-bd-light-green,.ss-hvr-bd-light-green:hover {
   border-color: #10b981!important;
 }
 
-.ss-border-gray,.ss-hvr-border-gray:hover {
+.ss-bd-gray,.ss-hvr-bd-gray:hover {
   border-color: #9e9e9e!important;
 }
 
-.ss-border-light-gray,.ss-hvr-border-light-gray:hover {
+.ss-bd-light-gray,.ss-hvr-bd-light-gray:hover {
   border-color: #f1f1f1!important;
 }
 
-.ss-border-indigo,.ss-hvr-border-indigo:hover {
+.ss-bd-indigo,.ss-hvr-bd-indigo:hover {
   border-color: #4f46e5!important;
 }
 
-.ss-border-light-indigo,.ss-hvr-border-light-indigo:hover {
+.ss-bd-light-indigo,.ss-hvr-bd-light-indigo:hover {
   border-color: #6158e8!important;
 }
 
-.ss-border-khaki,.ss-hvr-border-khaki:hover {
+.ss-bd-khaki,.ss-hvr-bd-khaki:hover {
   border-color: #f0e68c!important;
 }
 
-.ss-border-light-khaki,.ss-hvr-border-light-khaki:hover {
+.ss-bd-light-khaki,.ss-hvr-bd-light-khaki:hover {
   border-color: #f2e898!important;
 }
 
-.ss-border-lime,.ss-hvr-border-lime:hover {
+.ss-bd-lime,.ss-hvr-bd-lime:hover {
   border-color: #66ff00!important;
 }
 
-.ss-border-light-lime,.ss-hvr-border-light-lime:hover {
+.ss-bd-light-lime,.ss-hvr-bd-light-lime:hover {
   border-color: #75ff19!important;
 }
 
-.ss-border-maroon,.ss-hvr-border-maroon:hover {
+.ss-bd-maroon,.ss-hvr-bd-maroon:hover {
   border-color: #800000!important;
 }
 
-.ss-border-light-maroon,.ss-hvr-border-light-maroon:hover {
+.ss-bd-light-maroon,.ss-hvr-bd-light-maroon:hover {
   border-color: #8d1919!important;
 }
 
-.ss-border-orange,.ss-hvr-border-orange:hover {
+.ss-bd-orange,.ss-hvr-bd-orange:hover {
   border-color: #ff9800!important;
 }
 
-.ss-border-light-orange,.ss-hvr-border-light-orange:hover {
+.ss-bd-light-orange,.ss-hvr-bd-light-orange:hover {
   border-color: #ffa219!important;
 }
 
-.ss-border-pink,.ss-hvr-border-pink:hover {
+.ss-bd-pink,.ss-hvr-bd-pink:hover {
   border-color: #db2777!important;
 }
 
-.ss-border-light-pink,.ss-hvr-border-light-pink:hover {
+.ss-bd-light-pink,.ss-hvr-bd-light-pink:hover {
   border-color: #ec4899!important;
 }
 
-.ss-border-purple,.ss-hvr-border-purple:hover {
+.ss-bd-purple,.ss-hvr-bd-purple:hover {
   border-color: #7c3aed!important;
 }
 
-.ss-border-light-purple,.ss-hvr-border-light-purple:hover {
+.ss-bd-light-purple,.ss-hvr-bd-light-purple:hover {
   border-color: #894eef!important;
 }
 
-.ss-border-red,.ss-hvr-border-red:hover {
+.ss-bd-red,.ss-hvr-bd-red:hover {
   border-color: #dc2626!important;
 }
 
-.ss-border-light-red,.ss-hvr-border-light-red:hover {
+.ss-bd-light-red,.ss-hvr-bd-light-red:hover {
   border-color: #ef4444!important;
 }
 
-.ss-border-sand,.ss-hvr-border-sand:hover {
+.ss-bd-sand,.ss-hvr-bd-sand:hover {
   border-color: #fdf5e6!important;
 }
 
-.ss-border-light-sand,.ss-hvr-border-light-sand:hover {
+.ss-bd-light-sand,.ss-hvr-bd-light-sand:hover {
   border-color: #fdf6e8!important;
 }
 
-.ss-border-teal,.ss-hvr-border-teal:hover {
+.ss-bd-teal,.ss-hvr-bd-teal:hover {
   border-color: #009688!important;
 }
 
-.ss-border-light-teal,.ss-hvr-border-light-teal:hover {
+.ss-bd-light-teal,.ss-hvr-bd-light-teal:hover {
   border-color: #19a094!important;
 }
 
-.ss-border-white,.ss-hvr-border-white:hover {
+.ss-bd-white,.ss-hvr-bd-white:hover {
   border-color: #fff!important;
 }
 
-.ss-border-yellow,.ss-hvr-border-yellow:hover {
+.ss-bd-yellow,.ss-hvr-bd-yellow:hover {
   border-color: #d97706!important;
 }
 
-.ss-border-light-yellow,.ss-hvr-border-light-yellow:hover {
+.ss-bd-light-yellow,.ss-hvr-bd-light-yellow:hover {
   border-color: #f59e0b!important;
 }
