@@ -1,4 +1,4 @@
-## SYSACSS
+# Sysa CSS
 Free and Open Source Responsive Modern CSS Framework.       
 
 <img src="https://css.sysa.ml/logo-text.png" alt="SYSACSS" style="max-width:100%;" width="600">
@@ -45,16 +45,18 @@ npm install sysacss
 
 
 ## Documentation
-
 Browse the <a href="https://css.sysa.ml/" target="_blank">online documentation</a>.
 
 
 ## Roadmap
 - [ ] SASS
+- [ ] LESS
 
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## Contribute
+Feel free to fork, tweak and send me a pull request.
+
 
 ## License
 ![Github](https://img.shields.io/github/license/shoaiyb/css?logo=Github)
+
