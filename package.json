@@ -17,8 +17,10 @@
   "license": "MIT",
   "keywords": [
     "css",
+    "sass",
     "sysacss",
     "responsive",
+    "library",
     "framework"
   ],
   "bugs": {
