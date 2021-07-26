@@ -728,7 +728,7 @@ h1,h2,h3,h4,h5,h6 {
     position: relative;
   }
 
-  .ss-hide-small {
+  .ss-hide-sm {
     display: none!important;
   }
 
@@ -761,7 +761,7 @@ h1,h2,h3,h4,h5,h6 {
     width: 900px;
   }
   
-  .ss-hide-large {
+  .ss-hide-lg {
     display: none!important;
   }
   
@@ -771,7 +771,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 @media (max-width:992px) and (min-width:601px) {
-  .ss-hide-medium {
+  .ss-hide-md {
     display: none!important;
   }
 }
