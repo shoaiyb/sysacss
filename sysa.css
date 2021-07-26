@@ -804,7 +804,11 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 50%;
 }
 
-.ss-btn,.ss-button {
+.ss-btn {
+  
+}
+
+.ss-button {
   border: none;
   display: inline-block;
   padding: 8px 16px;
