@@ -835,6 +835,22 @@ h1,h2,h3,h4,h5,h6 {
   opacity: 0.65;
 }
 
+.ss-btn.outline {
+  color: #212529;
+  background-color: transparent;
+  border-color: #212529;
+}
+.ss-btn.outline:hover {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529;
+}
+
+.ss-btn.outline:disabled {
+  color: #212529;
+  background-color: transparent;
+}
+
 .ss-button {
   border: none;
   display: inline-block;
