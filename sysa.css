@@ -818,10 +818,6 @@ h1,h2,h3,h4,h5,h6 {
   white-space: nowrap;
 }
 
-.ss-btn:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
 .ss-btn,.ss-button {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -838,10 +834,6 @@ h1,h2,h3,h4,h5,h6 {
 
 .ss-disabled *,:disabled * {
   pointer-events: none;
-}
-
-.ss-btn.ss-disabled:hover,.ss-btn:disabled:hover {
-  box-shadow: none;
 }
 
 .ss-button:hover {
