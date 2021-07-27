@@ -2,9 +2,9 @@
 
 Free and open source responsive modern css framework.
 
-![npm-v](https://img.shields.io/npm/v/sysacss)
-![npm-d](https://img.shields.io/npm/dw/sysacss)
-![npm-l](https://img.shields.io/npm/l/sysacss)
+![npm-v](https://img.shields.io/npm/v/adjust.css)
+![npm-d](https://img.shields.io/npm/dw/npm)
+![npm-l](https://img.shields.io/npm/l/adjust.css)
 
 
 **NPM**
