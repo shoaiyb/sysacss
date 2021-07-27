@@ -683,11 +683,19 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .ss-code {
-  width: auto;
-  background-color: #fff;
-  padding: 8px 12px;
-  border-left: 4px solid #4CAF50;
-  word-wrap: break-word;
+  color: #414a63;
+  background: #f9fafb;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  display: block;
+  max-width: 100%;
+  padding: 15px 24px;
+  text-align: left;
+  word-spacing: normal;
+  word-break: normal;
+  white-space: pre;
+  overflow-x: scroll;
+  overflow: auto;
 }
 
 .ss-codespan {
@@ -698,7 +706,7 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 110%;
 }
 
-.ss-section,.ss-code {
+.ss-section {
   margin-top: 16px!important;
   margin-bottom: 16px!important;
 }
