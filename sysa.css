@@ -475,12 +475,20 @@ h1,h2,h3,h4,h5,h6 {
   -ms-transform: translate(-50%,0%);
 }
 
-.ss-disp-container:hover .ss-display-hvr {
+.ss-disp-container:hover .ss-display-hvr,.ss-disp-block {
   display: block;
 }
 
-.ss-disp-container:hover span.ss-display-hvr {
+.ss-disp-container:hover span.ss-display-hvr,.ss-disp-inlineblock {
   display: inline-block;
+}
+
+.ss-disp-flex {
+  display: flex;
+}
+
+.ss-disp-inlineflex {
+  display: inline-flex;
 }
 
 .ss-disp-hvr {
