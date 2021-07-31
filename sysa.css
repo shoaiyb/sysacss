@@ -1394,6 +1394,54 @@ h1,h2,h3,h4,h5,h6 {
   }
 }
 
+.ss-ovf-auto {
+  overflow: auto;
+}
+
+.ss-ovf-hidden {
+  overflow: hidden;
+}
+
+.ss-ovf-visible {
+  overflow: visible;
+}
+
+.ss-ovf-scroll {
+  overflow: scroll;
+}
+
+.ss-ovf-y-auto {
+  overflow-y: auto;
+}
+
+.ss-ovf-y-hidden {
+  overflow-y: hidden;
+}
+
+.ss-ovf-y-visible {
+  overflow-y: visible;
+}
+
+.ss-ovf-y-scroll {
+  overflow-y: scroll;
+}
+
+.ss-ovf-x-auto {
+  overflow-x: auto;
+}
+
+.ss-ovf-x-hidden {
+  overflow-x: hidden;
+}
+
+.ss-ovf-x-visible {
+  overflow-x: visible;
+}
+
+.ss-ovf-x-scroll {
+  overflow-x: scroll;
+}
+
 .ss-z-0 {
   z-index: 0;
 }
