@@ -12,7 +12,7 @@ Free and open source responsive modern css framework.
 **NPM**
 
 ```sh
-npm install --save sysacss
+npm install sysacss
 ```
 
 **CDN**
