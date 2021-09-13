@@ -30,7 +30,7 @@ https://www.jsdelivr.com/package/npm/sysacss
 
 **Download**
 
-[`sysacss@master`](https://github.com/shoaiyb/sysacss/archive/master.zip)
+[`sysacss@master`](https://github.com/shoaiyb/css/archive/master.zip)
 
 
 ## Browser support
