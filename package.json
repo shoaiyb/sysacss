@@ -27,6 +27,7 @@
   },
   "files": [
     "sysa.css",
+    "sysa.min.css",
     "LICENSE",
     "README.md"
   ]
