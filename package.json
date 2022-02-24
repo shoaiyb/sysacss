@@ -1,17 +1,17 @@
 {
   "name": "sysacss",
   "version": "0.0.0",
-  "homepage": "https://css.sysa.ml",
+  "homepage": "https://sysacss.pages.dev",
   "author": {
     "name": "Shoaiyb Sysa",
-    "email": "mail@sysa.ml",
-    "url": "https://sysa.ml"
+    "email": "shoaiybsysa@gmail.com",
+    "url": "https://shoaiyb.github.io"
   },
   "description": "Free And Open Source Responsive Modern CSS Framework",
   "main": "sysa.css",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shoaiyb/css.git"
+    "url": "git+https://github.com/shoaiyb/sysacss.git"
   },
   "license": "MIT",
   "keywords": [
@@ -23,7 +23,7 @@
     "framework"
   ],
   "bugs": {
-    "url": "https://github.com/shoaiyb/css/issues"
+    "url": "https://github.com/shoaiyb/sysacss/issues"
   },
   "files": [
     "sysa.css",
