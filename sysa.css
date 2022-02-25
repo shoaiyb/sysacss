@@ -514,10 +514,18 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0.01em 16px;
 }
 
-.ss-auto {
+.ss-content,.ss-auto {
   max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.ss-content {
+  max-width: 980px;
+}
+
+.ss-auto {
+  max-width: 1140px;
 }
 
 .ss-modal {
