@@ -1,6 +1,6 @@
 # SysaCSS
 
-<img src="https://sysacss.pages.dev/logo-text.png" alt="SysaCSS" width="50%">
+<img src="https://sysacss.pages.dev/trans-logo-text.png" alt="SysaCSS" width="60%">
 
 Free and open source responsive modern css framework.
 
