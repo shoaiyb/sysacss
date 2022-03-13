@@ -34,10 +34,10 @@ https://www.jsdelivr.com/package/npm/sysacss
 
 
 ## Features
-- Normalized by default.
-- No preprocessor, just plug-n-play.
-- No conflicts with other used frameworks, all classes start with the `ss-` prefix.
-- It's light, less than 40Kb raw.
+- [x] Normalized by default.
+- [x] No preprocessor, just plug-n-play.
+- [x] No conflicts with other used frameworks, all classes start with the `ss-` prefix.
+- [x] It's light, less than 40Kb raw.
 
 ## Browser support
 
