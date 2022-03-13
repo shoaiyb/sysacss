@@ -11,18 +11,18 @@ Free and open source responsive modern css framework.
 
 **NPM**
 
-```sh
+```bash
 npm install sysacss
 ```
 
 **CDN**
 
-```sh
+```bash
 # Unpkg
 https://unpkg.com/sysacss
 ```
 
-```sh
+```bash
 # jsDelivr
 https://www.jsdelivr.com/package/npm/sysacss
 ```
