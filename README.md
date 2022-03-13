@@ -33,6 +33,12 @@ https://www.jsdelivr.com/package/npm/sysacss
 [`sysacss@master`](https://github.com/shoaiyb/sysacss/archive/refs/heads/master.zip)
 
 
+## Features
+- Normalized by default.
+- No preprocessor, just plug-n-play.
+- No conflicts with other used frameworks, all classes start with the `ss-` prefix.
+- It's light, less than 40Kb raw.
+
 ## Browser support
 
 - [x] Chrome
