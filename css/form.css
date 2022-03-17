@@ -1,0 +1,73 @@
+/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-label {
+  font-weight: 600;
+  max-width: 100%;
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+.ss-input,.ss-select,.ss-textarea {
+  display: block;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  padding: 0.75rem;
+  outline: none;
+  background: transparent;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1;
+}
+
+.ss-input:hover,.ss-select:hover,.ss-textarea:hover {
+  border: 1px solid #c5c5c5;
+}
+
+.ss-input:focus,.ss-input:active,.ss-select:focus,.ss-select:active,.ss-textarea:focus,.ss-textarea:active {
+  border: 1px solid #000;
+}
+
+.ss-input::-webkit-file-upload-button {
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #000;
+  border: 1px solid #000;
+}
+
+form .ss-btn,form .ss-button {
+  margin-bottom: 0.5rem;
+  border: 1px solid #c5c5c5;
+  border-radius: 4px;
+}
+
+.ss-textarea {
+  overflow: auto;
+  height: auto;
+}
+
+.ss-fieldset {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1.5rem 0;
+}
+
+.ss-legend {
+  padding: 0 0.5rem;
+  font-weight: 600;
+}
+
+.ss-select {
+  color: #404040;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJBAMAAADN8WE8AAAAJ1BMVEUAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9YSk7AAAADXRSTlPXABaehSjPsTwKw2xUcKPlSQAAADtJREFUCNdjMGBgYGAWBAKGACCLFcwSAbIcwSyhBAY2RTBLcAMDtyCENYthJZQlw3AQyhIsF4SxOiAsAFMMCKPY35E7AAAAAElFTkSuQmCC) right center no-repeat;
+  line-height: 1;
+}
+
+.ss-select::-ms-expand {
+  display: none;
+}

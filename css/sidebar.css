@@ -1,0 +1,22 @@
+/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed!important;
+  z-index: 1;
+  overflow: auto;
+}
+
+@media (min-width:993px) {
+  .ss-sidebar.ss-collapse {
+    display: block!important;
+  }
+}
+
+@media (max-width:992px) {
+  .ss-sidebar.ss-collapse {
+    display: none;
+  }
+}
