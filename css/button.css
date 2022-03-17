@@ -29,7 +29,7 @@
   border-color: #212529;
 }
 
-.ss-btn.ss-outline:hover,.ss-btn.ss-outlined:hover {
+.ss-btn.ss-outline,.ss-btn.ss-outlined:hover {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
