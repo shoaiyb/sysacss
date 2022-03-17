@@ -1,0 +1,26 @@
+/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-alert {
+  margin: 0 0 1.5em;
+  padding: 1em 1.5em;
+  border-left: 3px solid #000;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ss-success,.ss-hvr-success:hover {
+  border-color: #10b981!important;
+}
+
+.ss-info,.ss-hvr-info:hover {
+  border-color: #3b82f6!important;
+}
+
+.ss-warning,.ss-hvr-warning:hover {
+  border-color: #f59e0b!important;
+}
+
+.ss-error,.ss-hvr-error:hover {
+  border-color: #ef4444!important;
+}
