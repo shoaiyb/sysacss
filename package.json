@@ -28,6 +28,7 @@
   "files": [
     "sysa.css",
     "sysa.min.css",
+    "css/*.css",
     "LICENSE",
     "README.md"
   ]
