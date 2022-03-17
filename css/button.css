@@ -23,19 +23,19 @@
   opacity: 0.65;
 }
 
-.ss-btn.ss-outline,.ss-btn.ss-outlined:hover {
+.ss-btn.ss-outlined,.ss-btn.ss-outline:hover {
   color: #212529;
   background-color: transparent;
   border-color: #212529;
 }
 
-.ss-btn.ss-outline:hover,.ss-btn.ss-outlined {
+.ss-btn.ss-outline:hover,.ss-btn.ss-outlined:hover {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
 }
 
-.ss-btn.ss-outline:disabled {
+.ss-btn.ss-outlined:disabled {
   color: #212529;
   background-color: transparent;
 }
