@@ -14,3 +14,7 @@
 .ss-list li:last-child {
   border-bottom: none;
 }
+
+.ss-list.ss-hoverable li:hover {
+  background-color: #ccc;
+}

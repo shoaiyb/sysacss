@@ -14,7 +14,7 @@
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 100;
+  z-index: 1;
   bottom: 130%;
   left: 50%;
   margin-left: -60px;
