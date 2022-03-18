@@ -11,10 +11,17 @@ html {
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
+}
+
+html,body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
@@ -43,6 +50,7 @@ audio:not([controls]) {
 }
 
 a {
+  color: inherit;
   background-color: transparent;
 }
 
@@ -94,6 +102,7 @@ figure {
 
 img {
   border-style: none;
+  vertical-align: middle;
 }
 
 code,kbd,pre,samp {
@@ -101,10 +110,13 @@ code,kbd,pre,samp {
   font-size: 1em;
 }
 
-hr {
+hr,.ss-hr {
+  border: 0;
+  border-top: 1px solid #eee;
   box-sizing: content-box;
   height: 0;
   overflow: visible;
+  margin: 20px 0;
 }
 
 button,input,select,textarea,optgroup {
@@ -177,26 +189,6 @@ textarea {
   font: inherit;
 }
 
-html,body {
-  font-family: Verdana, sans-serif;
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-html {
-  overflow-x: hidden;
-}
-
-img {
-  vertical-align: middle;
-}
-
-hr,.ss-hr {
-  border: 0;
-  border-top: 1px solid #eee;
-  margin: 20px 0;
-}
-
 .ss-hr {
   overflow: hidden;
   background-color: #eee;
@@ -205,10 +197,6 @@ hr,.ss-hr {
 
 .ss-hr:not([size]) {
   height: 1px;
-}
-
-a {
-  color: inherit;
 }
 
 h1,.ss-h1 {
@@ -391,6 +379,22 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
 
 .ss-border {
   border: 1px solid #ccc!important;
+}
+
+.ss-border-t {
+  border-top: 1px solid #ccc!important;
+}
+
+.ss-border-b {
+  border-bottom: 1px solid #ccc!important;
+}
+
+.ss-border-l {
+  border-left: 1px solid #ccc!important;
+}
+
+.ss-border-r {
+  border-right: 1px solid #ccc!important;
 }
 
 .ss-circle {
@@ -756,7 +760,7 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
   background-color: #212529;
   border: 1px solid #212529;
   border-radius: 2px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
 .ss-btn:hover {
@@ -773,19 +777,19 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
   opacity: 0.65;
 }
 
-.ss-btn.ss-outline {
+.ss-btn.ss-outlined,.ss-btn.ss-outline:hover {
   color: #212529;
   background-color: transparent;
   border-color: #212529;
 }
 
-.ss-btn.ss-outline:hover {
+.ss-btn.ss-outline,.ss-btn.ss-outlined:hover {
   color: #fff;
   background-color: #212529;
   border-color: #212529;
 }
 
-.ss-btn.ss-outline:disabled {
+.ss-btn.ss-outlined:disabled {
   color: #212529;
   background-color: transparent;
 }
@@ -796,12 +800,6 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
   color: inherit;
   background-color: inherit;
   white-space: nowrap;
-}
-
-.ss-button.ss-outline {
-  background-color: transparent;
-  border: 1px solid #212529;
-  border-radius: 2px;
 }
 
 .ss-btn,.ss-button {
@@ -999,7 +997,7 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 1;
+  z-index: 100;
   bottom: 130%;
   left: 50%;
   margin-left: -60px;
@@ -1021,14 +1019,6 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
 .ss-tooltip:hover .ss-text {
   visibility: visible;
   opacity: 1;
-}
-
-.ss-ripple:active {
-  opacity: 0.5;
-}
-
-.ss-ripple {
-  transition: opacity 0s;
 }
 
 .ss-list {
@@ -1071,13 +1061,16 @@ h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
   border: 1px solid #c5c5c5;
 }
 
+.ss-input:focus,.ss-input:active,.ss-select:focus,.ss-select:active,.ss-textarea:focus,.ss-textarea:active {
+  border: 1px solid #000;
+}
+
 .ss-input::-webkit-file-upload-button {
   color: #fff;
   overflow: hidden;
   white-space: nowrap;
   background-color: #000;
   border: 1px solid #000;
-  border-radius: 3px;
 }
 
 form .ss-btn,form .ss-button {
@@ -1184,6 +1177,14 @@ form .ss-btn,form .ss-button {
 
 .ss-card-5,.ss-hvr-card-5:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ss-ripple {
+  transition: opacity 0s;
+}
+
+.ss-ripple:active {
+  opacity: 0.5;
 }
 
 .ss-anim-top {
