@@ -1,12 +1,21 @@
+<p align="center">
+  <img src="https://sysacss.pages.dev/media/logo.svg" alt="SysaCSS" width="200" height="200">
+</p>
+
+<h1 align="center">SysaCSS</h1>
+
 <div align="center">
-  <img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="60%">
-  Free and open source responsive modern css framework.
+  
   
   ![npm-v](https://img.shields.io/npm/v/sysacss)
   ![npm-l](https://img.shields.io/npm/l/sysacss)
   ![npm-d](https://img.shields.io/npm/dm/sysacss)
   ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/shoaiyb/sysacss)
 </div>
+
+<p align="center">
+  Free and open source responsive modern css framework.
+</p>
 
 ## Installation
 
@@ -18,12 +27,13 @@ npm install sysacss
 
 **CDN**
 
-```bash
-# Unpkg
-https://unpkg.com/sysacss
+```html
+<!-- Unpkg -->
+<link rel="stylesheet" href="https://unpkg.com/sysacss" />
 ```
 
 ```html
+<!-- jsDelivr -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@master/sysa.css" />
 ```
 
