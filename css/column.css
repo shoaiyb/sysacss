@@ -1,6 +1,6 @@
 /*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
 
-.ss-container:after,.ss-container:before,.ss-row:after,.ss-row:before {
+.ss-row:after,.ss-row:before {
   content: "";
   display: table;
   clear: both;
