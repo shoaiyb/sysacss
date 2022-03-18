@@ -44,10 +44,10 @@ npm install sysacss
 
 
 ## Features
-- [x] Normalized by default.
-- [x] No preprocessor, just plug-n-play.
-- [x] No conflicts with other used frameworks, all classes start with the `ss-` prefix.
-- [x] It's light, less than 40Kb raw.
+- Normalized by default.
+- No preprocessor, just plug-n-play.
+- No conflicts with other used frameworks, all classes start with the `ss-` prefix.
+- It's modular, import what you need
 
 ## Browser support
 
