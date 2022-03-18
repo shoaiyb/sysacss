@@ -10,31 +10,31 @@
   height: 1px;
 }
 
-h1,.ss-h1 {
+.ss-h1 {
   font-size: 36px;
 }
 
-h2,.ss-h2 {
+.ss-h2 {
   font-size: 30px;
 }
 
-h3,.ss-h3 {
+.ss-h3 {
   font-size: 24px;
 }
 
-h4,.ss-h4 {
+.ss-h4 {
   font-size: 20px;
 }
 
-h5,.ss-h5 {
+.ss-h5 {
   font-size: 18px;
 }
 
-h6,.ss-h6 {
+.ss-h6 {
   font-size: 16px;
 }
 
-h1,.ss-h1,h2,.ss-h2,h3,.ss-h3,h4,.ss-h4,h5,.ss-h5,h6,.ss-h6 {
+.ss-h1,.ss-h2,.ss-h3,.ss-h4,.ss-h5,.ss-h6 {
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: 500;
   margin: 10px 0;
