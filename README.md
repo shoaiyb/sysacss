@@ -6,15 +6,15 @@
 
 <div align="center">
   
-  
   ![npm-v](https://img.shields.io/npm/v/sysacss)
   ![npm-l](https://img.shields.io/npm/l/sysacss)
   ![npm-d](https://img.shields.io/npm/dm/sysacss)
   ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/shoaiyb/sysacss)
+  
 </div>
 
 <p align="center">
-  Free and open source responsive modern css framework.
+  Free And Open Source Responsive Modular CSS framework.
 </p>
 
 ## Installation
