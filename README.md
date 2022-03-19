@@ -14,7 +14,7 @@
 </div>
 
 <p align="center">
-  Free And Open Source Responsive Modular CSS framework.
+  Free And Open Source Responsive Modern CSS Framework.
 </p>
 
 ## Installation
