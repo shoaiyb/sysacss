@@ -44,12 +44,15 @@ npm install sysacss
 
 
 ## Features
+
 - Normalized by default.
 - No preprocessor, just plug-n-play.
 - No conflicts with other used frameworks, all classes start with the `ss-` prefix.
 - It's modular, import what you need
 
 ## Browser support
+
+## Browsers support
 
 - [x] Chrome
 - [x] Edge
@@ -65,4 +68,3 @@ Browse the [online documentation](https://sysacss.pages.dev/).
 
 ## Contribute
 Feel free to fork, tweak and send me a pull request.
-
