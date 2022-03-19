@@ -47,7 +47,7 @@ npm install sysacss
 - Normalized by default.
 - No preprocessor, just plug-n-play.
 - No conflicts with other used frameworks, all classes start with the `ss-` prefix.
-- It's modular, import what you need
+- It's modular, import what you need.
 
 ## Browsers support
 
