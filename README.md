@@ -37,11 +37,11 @@ npm install sysacss
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@master/sysa.css" />
 ```
 
-
+<!--
 **Download**
 
 [`sysacss@master`](https://github.com/shoaiyb/sysacss/archive/refs/heads/master.zip)
-
+-->
 
 ## Features
 
