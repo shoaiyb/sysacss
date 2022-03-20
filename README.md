@@ -1,4 +1,4 @@
-<img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="">
+<img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="60%">
 
 # SysaCSS
 
