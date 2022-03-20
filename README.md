@@ -22,8 +22,13 @@ npm install sysacss
 ### CDN
 
 ```html
-<!-- jsDelivr -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@1.0.0/sysa.css" />
+<!-- Unpkg -->
+<link rel="stylesheet" href="https://unpkg.com/sysacss" />
+```
+
+```html
+<!-- jsDelivr (recommended) >
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss/sysa.css" />
 ```
 
 ### Download
