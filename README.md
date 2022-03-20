@@ -13,7 +13,7 @@ Free And Open Source Responsive Modern CSS Framework.
 
 ## Installation
 
-### NPM
+### NPM (Not updated)
 
 ```bash
 npm install sysacss
