@@ -27,7 +27,7 @@ npm install sysacss
 ```
 
 ```html
-<!-- jsDelivr (recommended) >
+<!-- jsDelivr (recommended) -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss/sysa.css" />
 ```
 
