@@ -1,38 +1,32 @@
-<p align="center">
-  <img src="https://sysacss.pages.dev/media/logo.svg" alt="SysaCSS" width="200" height="200">
-</p>
+<img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="">
 
-<h1 align="center">SysaCSS</h1>
+# SysaCSS
 
-<div align="center">
-  
-  ![npm-v](https://img.shields.io/npm/v/sysacss)
-  ![npm-l](https://img.shields.io/npm/l/sysacss)
-  ![npm-d](https://img.shields.io/npm/dm/sysacss)
-  ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/shoaiyb/sysacss)
-  
-</div>
+![npm-v](https://img.shields.io/npm/v/sysacss)
+![npm-l](https://img.shields.io/npm/l/sysacss)
+![npm-d](https://img.shields.io/npm/dm/sysacss)
+![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/shoaiyb/sysacss)
 
-<p align="center">
-  Free And Open Source Responsive Modern CSS Framework.
-</p>
+Free And Open Source Responsive Modern CSS Framework.
+
+<!-- ## CSS Only -->
 
 ## Installation
 
-**NPM**
+### NPM
 
 ```bash
 npm install sysacss
 ```
 
-**CDN**
+### CDN
 
 ```html
 <!-- jsDelivr -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@1.0.0/sysa.css" />
 ```
 
-**Download**
+### Download
 
 [`sysacss@master`](https://github.com/shoaiyb/sysacss/archive/refs/heads/master.zip)
 
@@ -46,12 +40,12 @@ npm install sysacss
 
 ## Browsers support
 
-- [x] Chrome
-- [x] Edge
-- [x] Firefox ESR+
-- [x] Internet Explorer 10+
-- [x] Opera
-- [x] Safari 8+
+- Chrome
+- Edge
+- Firefox ESR+
+- Internet Explorer 10+
+- Opera
+- Safari 8+
 
 
 ## Documentation
