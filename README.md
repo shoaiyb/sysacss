@@ -22,7 +22,7 @@ npm install sysacss
 ### CDN
 
 ```html
-<!-- Unpkg -->
+<!-- Unpkg (Not updated >= 0.0.0) -->
 <link rel="stylesheet" href="https://unpkg.com/sysacss" />
 ```
 
