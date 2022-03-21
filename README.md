@@ -1,4 +1,4 @@
-<img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="60%">
+<img src="https://sysacss.pages.dev/media/logo-inline-trans.png" alt="SysaCSS" width="70%">
 
 # SysaCSS
 
@@ -9,11 +9,13 @@
 
 Free And Open Source Responsive Modern CSS Framework.
 
-<!-- ## CSS Only -->
+## CSS Only
+SysaCSS is a lightweight, responsive and modern pure CSS framework.     
+It is meant to be just plug-n-play, hence it doesn't use any preprocessor or complex build process.
 
 ## Installation
 
-### NPM (Not updated)
+### NPM
 
 ```bash
 npm install sysacss
@@ -22,13 +24,13 @@ npm install sysacss
 ### CDN
 
 ```html
-<!-- Unpkg (Not updated >= 0.0.0) -->
+<!-- Unpkg -->
 <link rel="stylesheet" href="https://unpkg.com/sysacss" />
 ```
 
 ```html
-<!-- jsDelivr (recommended) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss/sysa.css" />
+<!-- jsDelivr -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@0.1.0/sysa.min.css" />
 ```
 
 ### Download
@@ -39,6 +41,7 @@ npm install sysacss
 ## Features
 
 - Normalized by default.
+- It's lightweight ~8KB (gzipped).
 - No preprocessor, just plug-n-play.
 - No conflicts with other used frameworks, all classes start with the `ss-` prefix.
 - It's modular, import what you need.
