@@ -43,6 +43,7 @@ npm install sysacss
 - Normalized by default.
 - It's lightweight ~8KB (gzipped).
 - No preprocessor, just plug-n-play.
+- A responsive grid to make mobile-friendly sites.
 - No conflicts with other used frameworks, all classes start with the `ss-` prefix.
 - It's modular, import what you need.
 
