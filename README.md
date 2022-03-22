@@ -30,7 +30,7 @@ npm install sysacss
 
 ```html
 <!-- jsDelivr -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss@0.1.0/sysa.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss/sysa.css" />
 ```
 
 ### Download
