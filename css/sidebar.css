@@ -1,12 +1,12 @@
-/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
 
 .ss-sidebar {
   height: 100%;
   width: 200px;
   background-color: #fff;
   position: fixed!important;
-  z-index: 1;
   overflow: auto;
+  z-index: 1;
 }
 
 @media (min-width:993px) {
