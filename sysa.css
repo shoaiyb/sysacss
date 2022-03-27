@@ -526,8 +526,8 @@ h1,h2,h3,h4,h5,h6 {
   width: 200px;
   background-color: #fff;
   position: fixed!important;
-  z-index: 1;
   overflow: auto;
+  z-index: 1;
 }
 
 .ss-bar-block .ss-dropdown-hvr,.ss-bar-block .ss-dropdown-clk {
@@ -573,7 +573,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .ss-modal {
-  z-index: 3;
   display: none;
   padding-top: 100px;
   position: fixed;
@@ -584,6 +583,7 @@ h1,h2,h3,h4,h5,h6 {
   overflow: auto;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
+  z-index: 5;
 }
 
 .ss-modal-content {
@@ -996,7 +996,7 @@ h1,h2,h3,h4,h5,h6 {
   position: absolute;
 }
 
-.ss-tooltip,.ss-disp-container {
+.ss-disp-container,.ss-tooltip {
   position: relative;
 }
 
@@ -1013,12 +1013,12 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 6px;
   padding: 5px 0;
   position: absolute;
-  z-index: 100;
   bottom: 130%;
   left: 50%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.6s;
+  z-index: 100;
 }
 
 .ss-tooltip .ss-text::after {
