@@ -240,7 +240,6 @@
 }
 
 .ss-top,.ss-bottom {
-  position: fixed;
   width: 100%;
   z-index: 1;
 }
