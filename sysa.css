@@ -774,7 +774,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: 400;
   background-color: #212529;
   border: 1px solid #212529;
-  border-radius: 2px;
+  border-radius: 4px;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
 
