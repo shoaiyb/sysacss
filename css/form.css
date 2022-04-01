@@ -1,45 +1,41 @@
-/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
 
 .ss-label {
   font-weight: 600;
   max-width: 100%;
   display: block;
-  margin: 1rem 0 0.5rem;
+  margin: 1em 0 0.5em;
 }
 
 .ss-input,.ss-select,.ss-textarea {
   display: block;
   border: 1px solid #dedede;
   border-radius: 4px;
-  padding: 0.75rem;
-  outline: none;
+  padding: 0.75em;
   background: transparent;
-  margin-bottom: 0.5rem;
-  font-size: 1rem;
+  margin-bottom: 0.5em;
+  font-size: 1em;
   width: 100%;
   max-width: 100%;
+  transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
   line-height: 1;
 }
 
 .ss-input:hover,.ss-select:hover,.ss-textarea:hover {
-  border: 1px solid #c5c5c5;
+  border: 1px solid #212529;
 }
 
-.ss-input:focus,.ss-input:active,.ss-select:focus,.ss-select:active,.ss-textarea:focus,.ss-textarea:active {
-  border: 1px solid #000;
+.ss-input:focus,.ss-select:focus,.ss-textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.20em rgba(33, 37, 41, 0.4);
 }
 
 .ss-input::-webkit-file-upload-button {
   color: #fff;
   overflow: hidden;
   white-space: nowrap;
-  background-color: #000;
-  border: 1px solid #000;
-}
-
-form .ss-btn,form .ss-button {
-  margin-bottom: 0.5rem;
-  border: 1px solid #c5c5c5;
+  background-color: #212529;
+  border: 1px solid #212529;
   border-radius: 4px;
 }
 
@@ -51,12 +47,12 @@ form .ss-btn,form .ss-button {
 .ss-fieldset {
   border: 1px solid #dedede;
   border-radius: 4px;
-  padding: 1rem;
-  margin: 1.5rem 0;
+  margin: 1.5em 0;
+  padding: 1em;
 }
 
 .ss-legend {
-  padding: 0 0.5rem;
+  padding: 0 0.5em;
   font-weight: 600;
 }
 

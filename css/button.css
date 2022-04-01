@@ -6,13 +6,18 @@
   background-color: #212529;
   border: 1px solid #212529;
   border-radius: 4px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+  transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
 }
 
 .ss-btn:hover {
   color: #fff;
   background-color: #1c1f23;
   border-color: #1a1e21;
+}
+
+.ss-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.20em rgba(33, 37, 41, 0.4);
 }
 
 .ss-btn:disabled {
@@ -48,6 +53,11 @@
   white-space: nowrap;
 }
 
+.ss-button:hover {
+  color: #000!important;
+  background-color: #ccc!important;
+}
+
 .ss-btn,.ss-button {
   display: inline-block;
   vertical-align: middle;
@@ -70,9 +80,4 @@
 
 .ss-disabled *,:disabled * {
   pointer-events: none;
-}
-
-.ss-button:hover {
-  color: #000!important;
-  background-color: #ccc!important;
 }
