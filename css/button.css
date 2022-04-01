@@ -17,7 +17,7 @@
 
 .ss-btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.20em rgba(33, 37, 41, 0.4);
+  box-shadow: 0 0 0 0.2em rgba(33, 37, 41, 0.4);
 }
 
 .ss-btn:disabled {
