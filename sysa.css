@@ -681,7 +681,7 @@ h1,h2,h3,h4,h5,h6 {
 .ss-blockquote,.ss-alert {
   margin: 0 0 1.5em;
   padding: 1em 1.5em;
-  border-left: 5px solid #000;
+  border-left: 5px solid #212529;
   border-radius: 6px;
 }
 
@@ -708,23 +708,23 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .ss-alert {
-  background: #fff;
+  background-color: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
-.ss-success,.ss-hvr-success:hover {
+.ss-alert.ss-success {
   border-color: #10b981!important;
 }
 
-.ss-info,.ss-hvr-info:hover {
+.ss-alert.ss-info {
   border-color: #3b82f6!important;
 }
 
-.ss-warning,.ss-hvr-warning:hover {
+.ss-alert.ss-warning {
   border-color: #f59e0b!important;
 }
 
-.ss-error,.ss-hvr-error:hover {
+.ss-alert.ss-error {
   border-color: #ef4444!important;
 }
 
@@ -789,27 +789,50 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0 0 0 0.2em rgba(33, 37, 41, 0.4);
 }
 
+.ss-btn.ss-success {
+  color: #fff;
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.ss-btn.ss-success:focus {
+  box-shadow: 0 0 0 0.2em rgba(16, 185, 129, 0.4);
+}
+
+.ss-btn.ss-info {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.ss-btn.ss-info:focus {
+  box-shadow: 0 0 0 0.2em rgba(59, 130, 246, 0.4);
+}
+
+.ss-btn.ss-warning {
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+}
+
+.ss-btn.ss-warning:focus {
+  box-shadow: 0 0 0 0.2em rgba(245, 158, 11, 0.4);
+}
+
+.ss-btn.ss-error {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+
+.ss-btn.ss-error:focus {
+  box-shadow: 0 0 0 0.2em rgba(239, 68, 68, 0.4);
+}
+
 .ss-btn:disabled {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
   pointer-events: none;
   opacity: 0.65;
 }
 
-.ss-btn.ss-outlined,.ss-btn.ss-outline:hover {
-  color: #212529;
-  background-color: transparent;
-  border-color: #212529;
-}
-
-.ss-btn.ss-outline,.ss-btn.ss-outlined:hover {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
-}
-
-.ss-btn.ss-outlined:disabled {
+.ss-btn.ss-outline:hover {
   color: #212529;
   background-color: transparent;
 }
@@ -1031,8 +1054,7 @@ h1,h2,h3,h4,h5,h6 {
   top: 100%;
   left: 50%;
   margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
+  border: 5px solid;
   border-color: #555 transparent transparent transparent;
 }
 
@@ -1158,8 +1180,8 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 
-.ss-bordered tr,.ss-table-all tr {
-  border-bottom: 1px solid #ddd;
+.ss-bordered th,.ss-bordered td,.ss-table-all th,.ss-table-all td {
+  border: 1px solid #ddd;
 }
 
 .ss-striped tbody tr:nth-child(even) {
