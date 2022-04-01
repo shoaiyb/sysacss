@@ -20,27 +20,50 @@
   box-shadow: 0 0 0 0.2em rgba(33, 37, 41, 0.4);
 }
 
+.ss-btn.ss-success {
+  color: #fff;
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.ss-btn.ss-success:focus {
+  box-shadow: 0 0 0 0.2em rgba(16, 185, 129, 0.4);
+}
+
+.ss-btn.ss-info {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.ss-btn.ss-info:focus {
+  box-shadow: 0 0 0 0.2em rgba(59, 130, 246, 0.4);
+}
+
+.ss-btn.ss-warning {
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+}
+
+.ss-btn.ss-warning:focus {
+  box-shadow: 0 0 0 0.2em rgba(245, 158, 11, 0.4);
+}
+
+.ss-btn.ss-error {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+
+.ss-btn.ss-error:focus {
+  box-shadow: 0 0 0 0.2em rgba(239, 68, 68, 0.4);
+}
+
 .ss-btn:disabled {
   color: #fff;
-  background-color: #212529;
-  border-color: #212529;
   pointer-events: none;
   opacity: 0.65;
 }
 
-.ss-btn.ss-outlined,.ss-btn.ss-outline:hover {
-  color: #212529;
-  background-color: transparent;
-  border-color: #212529;
-}
-
-.ss-btn.ss-outline,.ss-btn.ss-outlined:hover {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
-}
-
-.ss-btn.ss-outlined:disabled {
+.ss-btn.ss-outline:hover {
   color: #212529;
   background-color: transparent;
 }

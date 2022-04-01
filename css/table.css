@@ -7,7 +7,7 @@
   display: table;
 }
 
-.ss-table td,.ss-table th,.ss-table-all td,.ss-table-all th {
+.ss-table th,.ss-table td,.ss-table-all th,.ss-table-all td {
   padding: 8px 8px;
   display: table-cell;
   text-align: left;
@@ -34,14 +34,14 @@
   text-align: center;
 }
 
-.ss-bordered tr,.ss-table-all tr {
-  border-bottom: 1px solid #ddd;
+.ss-bordered th,.ss-bordered td,.ss-table-all th,.ss-table-all td {
+  border: 1px solid #ddd;
 }
 
 .ss-striped tbody tr:nth-child(even) {
   background-color: #f1f1f1;
 }
 
-.ss-hoverable tbody tr:hover {
+.ss-hoverable tbody tr:hover,.ss-list.ss-hoverable li:hover {
   background-color: #ccc;
 }
