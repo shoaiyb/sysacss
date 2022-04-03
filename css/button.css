@@ -68,11 +68,21 @@
   background-color: transparent;
 }
 
+.ss-btn.ss-inverted {
+  color: #212529;
+  background-color: rgba(247, 248, 249, 0.5);
+  border-color: #dedede;
+}
+
+.ss-btn.ss-inverted:focus {
+  box-shadow: none;
+}
+
 .ss-button {
   border: none;
   overflow: hidden;
   color: inherit;
-  background-color: inherit;
+  background-color: rgba(247, 248, 249, 0.5);;
   white-space: nowrap;
 }
 
@@ -103,4 +113,31 @@
 
 .ss-disabled *,:disabled * {
   pointer-events: none;
+}
+
+.ss-btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.ss-btn-group .ss-btn:first-child:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ss-btn-group .ss-btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  margin-left: -.05rem;
+}
+
+.ss-btn-group .ss-btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -.05rem;
+}
+
+.ss-btn-group .ss-btn:focus,.ss-btn-group .ss-btn:hover,.ss-btn-group .ss-btn:active {
+  z-index: 1;
 }
