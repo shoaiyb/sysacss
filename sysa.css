@@ -548,19 +548,14 @@ h1,h2,h3,h4,h5,h6 {
   padding: 8px 16px;
 }
 
-.ss-container:after,.ss-container:before,.ss-panel:after,.ss-panel:before,.ss-row:after,.ss-row:before,.ss-clear:after,.ss-clear:before,.ss-bar:before,.ss-bar:after {
+.ss-container:after,.ss-container:before,.ss-row:after,.ss-row:before,.ss-clear:after,.ss-clear:before,.ss-bar:before,.ss-bar:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.ss-container,.ss-panel {
+.ss-container {
   padding: 0.01em 16px;
-}
-
-.ss-panel {
-  margin-top: 16px;
-  margin-bottom: 16px;
 }
 
 .ss-content,.ss-auto {
