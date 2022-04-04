@@ -1,8 +1,14 @@
 /*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
 
 .ss-card-1,.ss-card,.ss-hvr-card,.ss-card-2,.ss-hvr-card-2,.ss-card-3,.ss-hvr-card-3,.ss-card-4,.ss-hvr-card-4,.ss-card-5,.ss-hvr-card-5 {
-  background: #fff;
-  border-radius: 3px;
+  baclground: #fff;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.ss-card-1 img:first-child,.ss-card img:first-child,.ss-hvr-card img:first-child,.ss-card-2 img:first-child,.ss-hvr-card-2 img:first-child,.ss-card-3 img:first-child,.ss-hvr-card-3 img:first-child,.ss-card-4 img:first-child,.ss-hvr-card-4 img:first-child,.ss-card-5 img:first-child,.ss-hvr-card-5 img:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .ss-card-1,.ss-card,.ss-hvr-card:hover {
