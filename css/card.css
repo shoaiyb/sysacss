@@ -7,8 +7,8 @@
 }
 
 .ss-card-1 img:first-child,.ss-card img:first-child,.ss-hvr-card img:first-child,.ss-card-2 img:first-child,.ss-hvr-card-2 img:first-child,.ss-card-3 img:first-child,.ss-hvr-card-3 img:first-child,.ss-card-4 img:first-child,.ss-hvr-card-4 img:first-child,.ss-card-5 img:first-child,.ss-hvr-card-5 img:first-child {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
 }
 
 .ss-card-1,.ss-card,.ss-hvr-card:hover {
