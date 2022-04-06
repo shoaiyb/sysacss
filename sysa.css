@@ -851,7 +851,7 @@ h1,h2,h3,h4,h5,h6 {
   border: none;
   overflow: hidden;
   color: inherit;
-  background-color: rgba(247, 248, 249, 0.5);
+  background-color: inherit;
   white-space: nowrap;
 }
 
@@ -1262,7 +1262,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .ss-card-1,.ss-card,.ss-hvr-card,.ss-card-2,.ss-hvr-card-2,.ss-card-3,.ss-hvr-card-3,.ss-card-4,.ss-hvr-card-4,.ss-card-5,.ss-hvr-card-5 {
-  baclground: #fff;
+  background: #fff;
   border-radius: 4px;
   transition: box-shadow 0.2s;
 }
