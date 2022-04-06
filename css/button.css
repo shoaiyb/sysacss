@@ -82,7 +82,7 @@
   border: none;
   overflow: hidden;
   color: inherit;
-  background-color: rgba(247, 248, 249, 0.5);;
+  background-color: inherit;
   white-space: nowrap;
 }
 
