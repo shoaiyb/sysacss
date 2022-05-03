@@ -381,6 +381,10 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: none!important;
 }
 
+.ss-dotted {
+  text-decoration: underline dotted!important;
+}
+
 .ss-lighter {
   font-weight: 200!important;
 }
@@ -909,6 +913,10 @@ h1,h2,h3,h4,h5,h6 {
 
 .ss-btn-group .ss-btn:focus,.ss-btn-group .ss-btn:hover,.ss-btn-group .ss-btn:active {
   z-index: 1;
+}
+
+.ss-btn-group.ss-nowrap {
+  flex-wrap: nowrap!important;
 }
 
 .ss-overlay {
