@@ -381,7 +381,7 @@ h1,h2,h3,h4,h5,h6 {
   text-decoration: none!important;
 }
 
-.ss-dotted {
+.ss-dotted,.ss-hvr-dotted:hover {
   text-decoration: underline dotted!important;
 }
 
@@ -1298,6 +1298,10 @@ h1,h2,h3,h4,h5,h6 {
 
 .ss-card-5,.ss-hvr-card-5:hover {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ss-no-shadow {
+  box-shadow: none!important;
 }
 
 .ss-ripple {
