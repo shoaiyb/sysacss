@@ -2,9 +2,9 @@
 
 # SysaCSS
 
-![npm-v](https://img.shields.io/npm/v/sysacss)
+<!--![npm-v](https://img.shields.io/npm/v/sysacss)-->
 ![npm-l](https://img.shields.io/npm/l/sysacss)
-![npm-d](https://img.shields.io/npm/dm/sysacss)
+<!--![npm-d](https://img.shields.io/npm/dm/sysacss)-->
 ![jsDelivr hits (GitHub)](https://img.shields.io/jsdelivr/gh/hm/shoaiyb/sysacss)
 
 Free And Open Source Responsive Modern CSS Framework.
@@ -14,23 +14,6 @@ SysaCSS is a lightweight, responsive and modern pure CSS framework.
 It is meant to be just plug-n-play, hence it doesn't use any preprocessor or complex build process.
 
 ## Installation
-
-<!--
-
-### NPM
-
-```bash
-npm install sysacss
-```
-
-### CDN
-
-```html
-<!-- Unpkg -->
-<link rel="stylesheet" href="https://unpkg.com/sysacss" />
-```
-
--->
 
 ```html
 <!-- jsDelivr -->
