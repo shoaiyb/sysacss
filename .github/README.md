@@ -16,6 +16,7 @@ It is meant to be just plug-n-play, hence it doesn't use any preprocessor or com
 ## Installation
 
 <!--
+
 ### NPM
 
 ```bash
@@ -28,6 +29,7 @@ npm install sysacss
 <!-- Unpkg -->
 <link rel="stylesheet" href="https://unpkg.com/sysacss" />
 ```
+
 -->
 
 ```html
