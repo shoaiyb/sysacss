@@ -1,0 +1,164 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-row:after,.ss-row:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ss-col,.ss-half,.ss-third,.ss-two-third,.ss-three-quarter,.ss-quarter {
+  float: left;
+  width: 100%;
+}
+
+.ss-col.s1 {
+  width: 8.33333%;
+}
+
+.ss-col.s2 {
+  width: 16.66666%;
+}
+
+.ss-col.s3 {
+  width: 24.99999%;
+}
+
+.ss-col.s4 {
+  width: 33.33333%;
+}
+
+.ss-col.s5 {
+  width: 41.66666%;
+}
+
+.ss-col.s6 {
+  width: 49.99999%;
+}
+
+.ss-col.s7 {
+  width: 58.33333%;
+}
+
+.ss-col.s8 {
+  width: 66.66666%;
+}
+
+.ss-col.s9 {
+  width: 74.99999%;
+}
+
+.ss-col.s10 {
+  width: 83.33333%;
+}
+
+.ss-col.s11 {
+  width: 91.66666%;
+}
+
+.ss-col.s12 {
+  width: 99.99999%;
+}
+
+.ss-rest {
+  overflow: hidden;
+}
+
+@media (min-width:601px) {
+  .ss-col.m1 {
+    width: 8.33333%;
+  }
+  
+  .ss-col.m2 {
+    width: 16.66666%;
+  }
+  
+  .ss-col.m3,.ss-quarter {
+    width: 24.99999%;
+  }
+  
+  .ss-col.m4,.ss-third {
+    width: 33.33333%;
+  }
+  
+  .ss-col.m5 {
+    width: 41.66666%;
+  }
+  
+  .ss-col.m6,.ss-half {
+    width: 49.99999%;
+  }
+  
+  .ss-col.m7 {
+    width: 58.33333%;
+  }
+  
+  .ss-col.m8,.ss-two-third {
+    width: 66.66666%;
+  }
+  
+  .ss-col.m9,.ss-three-quarter {
+    width: 74.99999%;
+  }
+  
+  .ss-col.m10 {
+    width: 83.33333%;
+  }
+  
+  .ss-col.m11 {
+    width: 91.66666%;
+  }
+  
+  .ss-col.m12 {
+    width: 99.99999%;
+  }
+}
+
+@media (min-width:993px) {
+  .ss-col.l1 {
+    width: 8.33333%;
+  }
+  
+  .ss-col.l2 {
+    width: 16.66666%;
+  }
+  
+  .ss-col.l3 {
+    width: 24.99999%;
+  }
+  
+  .ss-col.l4 {
+    width: 33.33333%;
+  }
+  
+  .ss-col.l5 {
+    width: 41.66666%;
+  }
+  
+  .ss-col.l6 {
+    width: 49.99999%;
+  }
+  
+  .ss-col.l7 {
+    width: 58.33333%;
+  }
+  
+  .ss-col.l8 {
+    width: 66.66666%;
+  }
+  
+  .ss-col.l9 {
+    width: 74.99999%;
+  }
+  
+  .ss-col.l10 {
+    width: 83.33333%;
+  }
+  
+  .ss-col.l11 {
+    width: 91.66666%;
+  }
+  
+  .ss-col.l12 {
+    width: 99.99999%;
+  }
+}

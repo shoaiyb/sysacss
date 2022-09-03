@@ -1,0 +1,322 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-hr {
+  overflow: hidden;
+  background-color: #eee;
+  border-radius: 6px;
+}
+
+.ss-hr:not([size]) {
+  height: 1px;
+}
+
+.ss-h1 {
+  font-size: 36px;
+}
+
+.ss-h2 {
+  font-size: 30px;
+}
+
+.ss-h3 {
+  font-size: 24px;
+}
+
+.ss-h4 {
+  font-size: 20px;
+}
+
+.ss-h5 {
+  font-size: 18px;
+}
+
+.ss-h6 {
+  font-size: 16px;
+}
+
+.ss-h1,.ss-h2,.ss-h3,.ss-h4,.ss-h5,.ss-h6 {
+  font-weight: 500;
+  margin: 10px 0;
+  line-height: 1.2;
+}
+
+.ss-sans {
+  font-family: sans-serif!important;
+}
+
+.ss-serif {
+  font-family: serif!important;
+}
+
+.ss-cursive {
+  font-family: cursive!important;
+}
+
+.ss-monospace {
+  font-family: monospace!important;
+}
+
+.ss-fantasy {
+  font-family: fantasy!important;
+}
+
+.ss-normal {
+  font-style: normal!important;
+}
+
+.ss-italic {
+  font-style: italic!important;
+}
+
+.ss-oblique {
+  font-style: oblique!important;
+}
+
+.ss-tiny {
+  font-size: 10px!important;
+}
+
+.ss-small {
+  font-size: 12px!important;
+}
+
+.ss-medium {
+  font-size: 15px!important;
+}
+
+.ss-large {
+  font-size: 18px!important;
+}
+
+.ss-xlarge {
+  font-size: 24px!important;
+}
+
+.ss-xxlarge {
+  font-size: 36px!important;
+}
+
+.ss-xxxlarge {
+  font-size: 48px!important;
+}
+
+.ss-jumbo {
+  font-size: 64px!important;
+}
+
+.ss-pull-left {
+  float: left!important;
+}
+
+.ss-pull-right {
+  float: right!important;
+}
+
+.ss-left-align {
+  text-align: left!important;
+}
+
+.ss-right-align {
+  text-align: right!important;
+}
+
+.ss-justify {
+  text-align: justify!important;
+}
+
+.ss-center {
+  text-align: center!important;
+}
+
+.ss-full {
+  display: block;
+  width: 100%!important;
+}
+
+.ss-fixed {
+  position: fixed;
+  width: 100%;
+}
+
+.ss-responsive {
+  display: block;
+  overflow-x: auto;
+}
+
+.ss-image,.ss-video {
+  max-width: 100%;
+  height: auto;
+}
+
+.ss-wide {
+  letter-spacing: 4px!important;
+}
+
+.ss-hide {
+  display: none!important;
+}
+
+.ss-show {
+  display: block!important;
+}
+
+.ss-visible {
+  visibility: visible!important;
+}
+
+.ss-invisible {
+  visibility: hidden!important;
+}
+
+.ss-uppercase {
+  text-transform: uppercase!important;
+}
+
+.ss-lowercase {
+  text-transform: lowercase!important;
+}
+
+.ss-capitalize {
+  text-transform: capitalize!important;
+}
+
+.ss-underline,.ss-hvr-underline:hover {
+  text-decoration: underline!important;
+}
+
+.ss-no-underline,.ss-hvr-no-underline:hover {
+  text-decoration: none!important;
+}
+
+.ss-lighter {
+  font-weight: 200!important;
+}
+
+.ss-bold {
+  font-weight: 700!important;
+}
+
+.ss-bolder {
+  font-weight: 900!important;
+}
+
+.ss-border {
+  border: 1px solid #ccc!important;
+}
+
+.ss-border-t {
+  border-top: 1px solid #ccc!important;
+}
+
+.ss-border-b {
+  border-bottom: 1px solid #ccc!important;
+}
+
+.ss-border-l {
+  border-left: 1px solid #ccc!important;
+}
+
+.ss-border-r {
+  border-right: 1px solid #ccc!important;
+}
+
+.ss-circle {
+  border-radius: 50%!important;
+}
+
+.ss-round-small {
+  border-radius: 2px!important;
+}
+
+.ss-round,.ss-round-medium {
+  border-radius: 4px!important;
+}
+
+.ss-round-large {
+  border-radius: 8px!important;
+}
+
+.ss-round-xlarge {
+  border-radius: 16px!important;
+}
+
+.ss-round-xxlarge {
+  border-radius: 32px!important;
+}
+
+.ss-top,.ss-bottom {
+  width: 100%;
+  z-index: 1;
+}
+
+.ss-top {
+  top: 0;
+}
+
+.ss-bottom {
+  bottom: 0;
+}
+
+.ss-container:after,.ss-container:before,.ss-clear:after,.ss-clear:before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ss-container {
+  padding: 0.01em 16px;
+}
+
+.ss-content,.ss-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ss-content {
+  max-width: 980px;
+}
+
+.ss-auto {
+  max-width: 1140px;
+}
+
+@media (max-width:1205px) {
+  .ss-auto {
+    max-width: 95%;
+  }
+}
+
+@media (max-width:600px) {
+  .ss-hide-sm {
+    display: none!important;
+  }
+  
+  .ss-mobile {
+    display: block;
+    width: 100%!important;
+  }
+}
+
+@media (min-width:993px) {
+  .ss-hide-lg {
+    display: none!important;
+  }
+}
+
+@media (max-width:992px) and (min-width:601px) {
+  .ss-hide-md {
+    display: none!important;
+  }
+}
+
+@media (max-width:992px) {
+  .ss-auto {
+    max-width: 100%;
+  }
+}
+
+@media print {
+  .ss-hide-pr {
+    display: none!important;
+  }
+}

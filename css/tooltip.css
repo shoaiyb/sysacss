@@ -1,0 +1,38 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.ss-tooltip .ss-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  bottom: 130%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.6s;
+  z-index: 100;
+}
+
+.ss-tooltip .ss-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border: 5px solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.ss-tooltip:hover .ss-text {
+  visibility: visible;
+  opacity: 1;
+}

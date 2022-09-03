@@ -1,0 +1,14 @@
+/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-badge,.ss-tag {
+  color: #fff;
+  background-color: #000;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.ss-badge {
+  border-radius: 50%;
+}

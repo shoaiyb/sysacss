@@ -1,0 +1,93 @@
+/*! sysacss v1.0.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-disp-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(-0%,-50%);
+}
+
+.ss-disp-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%,-50%);
+  -ms-transform: translate(0%,-50%);
+}
+
+.ss-disp-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+
+.ss-disp-topleft {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.ss-disp-topright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.ss-disp-topmiddle {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%);
+}
+
+.ss-disp-bottomleft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.ss-disp-bottomright {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.ss-disp-bottommiddle {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%,0%);
+  -ms-transform: translate(-50%,0%);
+}
+
+.ss-disp-container:hover .ss-disp-hvr,.ss-disp-block {
+  display: block;
+}
+
+.ss-disp-container:hover span.ss-disp-hvr,.ss-disp-inlineblock {
+  display: inline-block;
+}
+
+.ss-disp-flex {
+  display: flex;
+}
+
+.ss-disp-inlineflex {
+  display: inline-flex;
+}
+
+.ss-disp-hvr {
+  display: none;
+}
+
+.ss-disp-position {
+  position: absolute;
+}
+
+.ss-disp-container {
+  position: relative;
+}

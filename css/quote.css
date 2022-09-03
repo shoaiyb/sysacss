@@ -1,0 +1,27 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-blockquote {
+  margin: 0 0 1.5em;
+  padding: 1em 1.5em;
+  border-left: 5px solid #212529;
+  border-radius: 6px;
+  font-size: 1.2em;
+  font-family: Georgia, serif;
+  background: #f9fafb;
+}
+
+.ss-blockquote:last-child {
+  margin-bottom: 0;
+}
+
+.ss-blockquote .ss-cite {
+  display: block;
+}
+
+.ss-cite {
+  color: #bdbec0;
+}
+
+.ss-cite:before {
+  content: "\2014 \00A0";
+}

@@ -1,0 +1,47 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-table,.ss-table-all {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+.ss-table th,.ss-table td,.ss-table-all th,.ss-table-all td {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+.ss-table th:first-child,.ss-table td:first-child,.ss-table-all th:first-child,.ss-table-all td:first-child {
+  padding-left: 16px;
+}
+
+.ss-table-all {
+  border: 1px solid #ccc;
+}
+
+.ss-table-all tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+.ss-table-all tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.ss-centered tr th,.ss-centered tr td {
+  text-align: center;
+}
+
+.ss-bordered th,.ss-bordered td,.ss-table-all th,.ss-table-all td {
+  border: 1px solid #ddd;
+}
+
+.ss-striped tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.ss-hoverable tbody tr:hover,.ss-list.ss-hoverable li:hover {
+  background-color: #ccc;
+}

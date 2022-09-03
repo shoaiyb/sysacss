@@ -1,0 +1,196 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-ripple {
+  transition: opacity 0s;
+}
+
+.ss-ripple:active {
+  opacity: 0.5;
+}
+
+.ss-anim-top {
+  position: relative;
+  animation: anim-top 0.4s;
+}
+
+@keyframes anim-top {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-bottom {
+  position: relative;
+  animation: anim-bottom 0.4s;
+}
+
+@keyframes anim-bottom {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-left {
+  position: relative;
+  animation: anim-left 0.4s;
+}
+
+@keyframes anim-left {
+  from {
+    left: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-right {
+  position: relative;
+  animation: anim-right 0.4s;
+}
+
+@keyframes anim-right {
+  from {
+    right: -300px;
+    opacity: 0;
+  }
+  
+  to {
+    right: 0;
+    opacity: 1;
+  }
+}
+
+.ss-anim-zoom {
+  animation: anim-zoom 0.9s;
+}
+
+@keyframes anim-zoom {
+  from {
+    transform: scale(0);
+  }
+  
+  to {
+    transform: scale(1);
+  }
+}
+
+.ss-anim-kenburns,.ss-hvr-anim-kenburns:hover {
+  animation: anim-kenburns 2s ease-out both;
+}
+
+@keyframes anim-kenburns {
+  from {
+    transform: scale(1) translateY(0);
+  }
+  
+  to {
+    transform: scale(1.25) translateY(-15px);
+  }
+}
+
+.ss-anim-ping,.ss-hvr-anim-ping:hover {
+  animation: anim-ping 2s ease-in-out infinite both;
+}
+
+@keyframes anim-ping {
+  0% {
+    transform: scale(0.2);
+    opacity: 0.8;
+  }
+  
+  80% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+  
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.ss-anim-opacity {
+  animation: anim-opac 3s;
+}
+
+@keyframes anim-opac {
+  from {
+    opacity: 0;
+  }
+  
+  to {
+    opacity: 1;
+  }
+}
+
+.ss-spin,.ss-anim-spin,.ss-hvr-anim-spin:hover {
+  animation: anim-spin 2s infinite linear;
+}
+
+@keyframes anim-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.ss-anim-input {
+  transition: width 0.4s ease-in-out;
+}
+
+.ss-anim-input:focus {
+  width: 100%!important;
+}
+
+.ss-anim-jello,.ss-hvr-anim-jello:hover {
+  animation: anim-jello 0.9s both;
+}
+
+@keyframes anim-jello {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
