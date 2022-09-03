@@ -1,0 +1,177 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-opacity-0,.ss-hvr-opacity-0:hover {
+  filter: opacity(0);
+}
+
+.ss-opacity-1,.ss-hvr-opacity-1:hover {
+  filter: opacity(0.1);
+}
+
+.ss-opacity-2,.ss-hvr-opacity-2:hover {
+  filter: opacity(0.2);
+}
+
+.ss-opacity-3,.ss-hvr-opacity-3:hover {
+  filter: opacity(0.3);
+}
+
+.ss-opacity-4,.ss-hvr-opacity-4:hover {
+  filter: opacity(0.4);
+}
+
+.ss-opacity-5,.ss-hvr-opacity-5:hover {
+  filter: opacity(0.5);
+}
+
+.ss-opacity-6,.ss-hvr-opacity-6:hover {
+  filter: opacity(0.6);
+}
+
+.ss-opacity-7,.ss-hvr-opacity-7:hover {
+  filter: opacity(0.7);
+}
+
+.ss-opacity-8,.ss-hvr-opacity-8:hover {
+  filter: opacity(0.8);
+}
+
+.ss-opacity-9,.ss-hvr-opacity-9:hover {
+  filter: opacity(0.9);
+}
+
+.ss-opacity-10,.ss-hvr-opacity-10:hover {
+  filter: opacity(1);
+}
+
+.ss-blur-0,.ss-hvr-blur-0:hover {
+  filter: blur(0);
+}
+
+.ss-blur-1,.ss-hvr-blur-1:hover {
+  filter: blur(1px);
+}
+
+.ss-blur-2,.ss-hvr-blur-2:hover {
+  filter: blur(2px);
+}
+
+.ss-blur-3,.ss-hvr-blur-3:hover {
+  filter: blur(3px);
+}
+
+.ss-blur-4,.ss-hvr-blur-4:hover {
+  filter: blur(4px);
+}
+
+.ss-blur-5,.ss-hvr-blur-5:hover {
+  filter: blur(5px);
+}
+
+.ss-blur-6,.ss-hvr-blur-6:hover {
+  filter: blur(6px);
+}
+
+.ss-blur-7,.ss-hvr-blur-7:hover {
+  filter: blur(7px);
+}
+
+.ss-blur-8,.ss-hvr-blur-8:hover {
+  filter: blur(8px);
+}
+
+.ss-blur-9,.ss-hvr-blur-9:hover {
+  filter: blur(9px);
+}
+
+.ss-blur-10,.ss-hvr-blur-10:hover {
+  filter: blur(10px);
+}
+
+.ss-sepia-0,.ss-hvr-sepia-0:hover {
+  filter: sepia(0);
+}
+
+.ss-sepia-1,.ss-hvr-sepia-1:hover {
+  filter: sepia(0.1);
+}
+
+.ss-sepia-2,.ss-hvr-sepia-2:hover {
+  filter: sepia(0.2);
+}
+
+.ss-sepia-3,.ss-hvr-sepia-3:hover {
+  filter: sepia(0.3);
+}
+
+.ss-sepia-4,.ss-hvr-sepia-4:hover {
+  filter: sepia(0.4);
+}
+
+.ss-sepia-5,.ss-hvr-sepia-5:hover {
+  filter: sepia(0.5);
+}
+
+.ss-sepia-6,.ss-hvr-sepia-6:hover {
+  filter: sepia(0.6);
+}
+
+.ss-sepia-7,.ss-hvr-sepia-7:hover {
+  filter: sepia(0.7);
+}
+
+.ss-sepia-8,.ss-hvr-sepia-8:hover {
+  filter: sepia(0.8);
+}
+
+.ss-sepia-9,.ss-hvr-sepia-9:hover {
+  filter: sepia(0.9);
+}
+
+.ss-sepia-10,.ss-hvr-sepia-10:hover {
+  filter: sepia(1);
+}
+
+.ss-grayscale-0,.ss-hvr-grayscale-0:hover {
+  filter: grayscale(0);
+}
+
+.ss-grayscale-1,.ss-hvr-grayscale-1:hover {
+  filter: grayscale(0.1);
+}
+
+.ss-grayscale-2,.ss-hvr-grayscale-2:hover {
+  filter: grayscale(0.2);
+}
+
+.ss-grayscale-3,.ss-hvr-grayscale-3:hover {
+  filter: grayscale(0.3);
+}
+
+.ss-grayscale-4,.ss-hvr-grayscale-4:hover {
+  filter: grayscale(0.4);
+}
+
+.ss-grayscale-5,.ss-hvr-grayscale-5:hover {
+  filter: grayscale(0.5);
+}
+
+.ss-grayscale-6,.ss-hvr-grayscale-6:hover {
+  filter: grayscale(0.6);
+}
+
+.ss-grayscale-7,.ss-hvr-grayscale-7:hover {
+  filter: grayscale(0.7);
+}
+
+.ss-grayscale-8,.ss-hvr-grayscale-8:hover {
+  filter: grayscale(0.8);
+}
+
+.ss-grayscale-9,.ss-hvr-grayscale-9:hover {
+  filter: grayscale(0.9);
+}
+
+.ss-grayscale-10,.ss-hvr-grayscale-10:hover {
+  filter: grayscale(1);
+}

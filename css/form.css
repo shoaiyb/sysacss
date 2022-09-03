@@ -1,0 +1,101 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-label {
+  font-weight: 600;
+  max-width: 100%;
+  display: block;
+  margin: 1em 0 0.5em;
+}
+
+.ss-input,.ss-select,.ss-textarea {
+  display: block;
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  padding: 0.75em;
+  background: transparent;
+  margin-bottom: 0.5em;
+  font-size: 1em;
+  width: 100%;
+  max-width: 100%;
+  transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
+  line-height: 1;
+}
+
+.ss-input:hover,.ss-select:hover,.ss-textarea:hover {
+  border: 1px solid #212529;
+}
+
+.ss-input:focus,.ss-select:focus,.ss-textarea:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2em rgba(33, 37, 41, 0.4);
+}
+
+.ss-input.ss-success,.ss-select.ss-success,.ss-textarea.ss-success {
+  border-color: #10b981;
+}
+
+.ss-input.ss-success:focus,.ss-select.ss-success:focus,.ss-textarea.ss-success:focus {
+  box-shadow: 0 0 0 0.2em rgba(16, 185, 129, 0.4);
+}
+
+.ss-input.ss-info,.ss-select.ss-info,.ss-textarea.ss-info {
+  border-color: #3b82f6;
+}
+
+.ss-input.ss-info:focus,.ss-select.ss-info:focus,.ss-textarea.ss-info:focus {
+  box-shadow: 0 0 0 0.2em rgba(59, 130, 246, 0.4);
+}
+
+.ss-input.ss-warning,.ss-select.ss-warning,.ss-textarea.ss-warning {
+  border-color: #f59e0b;
+}
+
+.ss-input.ss-warning:focus,.ss-select.ss-warning:focus,.ss-textarea.ss-warning:focus {
+  box-shadow: 0 0 0 0.2em rgba(245, 158, 11, 0.4);
+}
+
+.ss-input.ss-error,.ss-select.ss-error,.ss-textarea.ss-error {
+  border-color: #ef4444;
+}
+
+.ss-input.ss-error:focus,.ss-select.ss-error:focus,.ss-textarea.ss-error:focus {
+  box-shadow: 0 0 0 0.2em rgba(239, 68, 68, 0.4);
+}
+
+.ss-input::-webkit-file-upload-button {
+  color: #fff;
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: #212529;
+  border: 1px solid #212529;
+  border-radius: 4px;
+}
+
+.ss-textarea {
+  overflow: auto;
+  height: auto;
+}
+
+.ss-fieldset {
+  border: 1px solid #dedede;
+  border-radius: 4px;
+  margin: 1.5em 0;
+  padding: 1em;
+}
+
+.ss-legend {
+  padding: 0 0.5em;
+  font-weight: 600;
+}
+
+.ss-select {
+  color: #404040;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAJBAMAAADN8WE8AAAAJ1BMVEUAAABHcEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB9YSk7AAAADXRSTlPXABaehSjPsTwKw2xUcKPlSQAAADtJREFUCNdjMGBgYGAWBAKGACCLFcwSAbIcwSyhBAY2RTBLcAMDtyCENYthJZQlw3AQyhIsF4SxOiAsAFMMCKPY35E7AAAAAElFTkSuQmCC) right center no-repeat;
+  line-height: 1;
+}
+
+.ss-select::-ms-expand {
+  display: none;
+}

@@ -1,0 +1,29 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-code,.ss-codespan {
+  font-family: Consolas, "courier new", monospace;
+  font-size: 16px;
+  background: #f9fafb;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.ss-code {
+  color: #404040;
+  display: block;
+  max-width: 100%;
+  padding: 1em 1.5em;
+  text-align: left;
+  word-spacing: normal;
+  word-break: normal;
+  white-space: pre;
+  overflow-x: scroll;
+  overflow: auto;
+}
+
+.ss-codespan {
+  color: crimson;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 110%;
+}

@@ -1,0 +1,147 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-btn {
+  color: #fff;
+  font-weight: 400;
+  background-color: #212529;
+  border: 1px solid #212529;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s, border 0.2s, box-shadow 0.2s;
+}
+
+.ss-btn:hover {
+  color: #fff;
+  background-color: #1c1f23;
+  border-color: #1a1e21;
+}
+
+.ss-btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2em rgba(33, 37, 41, 0.4);
+}
+
+.ss-btn.ss-success {
+  color: #fff;
+  background-color: #10b981;
+  border-color: #10b981;
+}
+
+.ss-btn.ss-success:focus {
+  box-shadow: 0 0 0 0.2em rgba(16, 185, 129, 0.4);
+}
+
+.ss-btn.ss-info {
+  background-color: #3b82f6;
+  border-color: #3b82f6;
+}
+
+.ss-btn.ss-info:focus {
+  box-shadow: 0 0 0 0.2em rgba(59, 130, 246, 0.4);
+}
+
+.ss-btn.ss-warning {
+  background-color: #f59e0b;
+  border-color: #f59e0b;
+}
+
+.ss-btn.ss-warning:focus {
+  box-shadow: 0 0 0 0.2em rgba(245, 158, 11, 0.4);
+}
+
+.ss-btn.ss-error {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+
+.ss-btn.ss-error:focus {
+  box-shadow: 0 0 0 0.2em rgba(239, 68, 68, 0.4);
+}
+
+.ss-btn:disabled {
+  color: #fff;
+  pointer-events: none;
+  opacity: 0.65;
+}
+
+.ss-btn.ss-outline:hover {
+  color: #212529;
+  background-color: transparent;
+}
+
+.ss-btn.ss-inverted {
+  color: #212529;
+  background-color: rgba(247, 248, 249, 0.5);
+  border-color: #dedede;
+}
+
+.ss-btn.ss-inverted:focus {
+  box-shadow: none;
+}
+
+.ss-button {
+  border: none;
+  overflow: hidden;
+  color: inherit;
+  background-color: inherit;
+  white-space: nowrap;
+}
+
+.ss-button:hover {
+  color: #000!important;
+  background-color: #ccc!important;
+}
+
+.ss-btn,.ss-button {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.ss-disabled,.ss-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+.ss-disabled *,:disabled * {
+  pointer-events: none;
+}
+
+.ss-btn-group {
+  position: relative;
+  display: inline-flex;
+  vertical-align: middle;
+  flex-wrap: wrap;
+}
+
+.ss-btn-group .ss-btn:first-child:not(:last-child) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.ss-btn-group .ss-btn:not(:first-child):not(:last-child) {
+  border-radius: 0;
+  margin-left: -.05rem;
+}
+
+.ss-btn-group .ss-btn:last-child:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  margin-left: -.05rem;
+}
+
+.ss-btn-group .ss-btn:focus,.ss-btn-group .ss-btn:hover,.ss-btn-group .ss-btn:active {
+  z-index: 1;
+}
+
+.ss-btn-group.ss-nowrap {
+  flex-wrap: nowrap!important;
+}

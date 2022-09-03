@@ -1,0 +1,115 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-dropdown-clk,.ss-dropdown-hvr {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ss-dropdown-hvr:hover .ss-dropdown-content {
+  display: block;
+}
+
+.ss-dropdown-hvr:first-child,.ss-dropdown-clk:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-hvr:hover > .ss-button:first-child,.ss-dropdown-clk:hover > .ss-button:first-child {
+  background-color: #ccc;
+  color: #000;
+}
+
+.ss-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.ss-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+.ss-center .ss-bar {
+  display: inline-block;
+  width: auto;
+}
+
+.ss-bar .ss-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  display: block;
+  outline: 0;
+}
+
+.ss-bar .ss-dropdown-hvr,.ss-bar .ss-dropdown-clk {
+  position: static;
+  float: left;
+}
+
+.ss-bar .ss-button {
+  white-space: normal;
+}
+
+.ss-bar-block .ss-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  white-space: normal;
+  float: none;
+  outline: 0;
+}
+
+.ss-bar-block.ss-center .ss-bar-item {
+  text-align: center;
+}
+
+.ss-bar-block .ss-dropdown-hvr,.ss-bar-block .ss-dropdown-clk {
+  width: 100%;
+}
+
+.ss-bar-block .ss-dropdown-hvr .ss-dropdown-content,.ss-bar-block .ss-dropdown-clk .ss-dropdown-content {
+  min-width: 100%;
+}
+
+.ss-bar-block .ss-dropdown-hvr .ss-button,.ss-bar-block .ss-dropdown-clk .ss-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+.ss-bar:before,.ss-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (max-width:600px) {
+  .ss-dropdown-hvr.ss-mobile .ss-dropdown-content,.ss-dropdown-clk.ss-mobile .ss-dropdown-content {
+    position: relative;
+  }
+  
+  .ss-mobile {
+    display: block;
+    width: 100%!important;
+  }
+  
+  .ss-bar-item.ss-mobile,.ss-dropdown-hvr.ss-mobile,.ss-dropdown-clk.ss-mobile {
+    text-align: center;
+  }
+  
+  .ss-dropdown-hvr.ss-mobile,.ss-dropdown-hvr.ss-mobile .ss-btn,.ss-dropdown-hvr.ss-mobile .ss-button,.ss-dropdown-clk.ss-mobile,.ss-dropdown-clk.ss-mobile .ss-btn,.ss-dropdown-clk.ss-mobile .ss-button {
+    width: 100%;
+  }
+}

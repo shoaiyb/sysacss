@@ -1,0 +1,36 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-card-1,.ss-card,.ss-hvr-card,.ss-card-2,.ss-hvr-card-2,.ss-card-3,.ss-hvr-card-3,.ss-card-4,.ss-hvr-card-4,.ss-card-5,.ss-hvr-card-5 {
+  baclground: #fff;
+  border-radius: 4px;
+  transition: box-shadow 0.2s;
+}
+
+.ss-card-1 img:first-child,.ss-card img:first-child,.ss-hvr-card img:first-child,.ss-card-2 img:first-child,.ss-hvr-card-2 img:first-child,.ss-card-3 img:first-child,.ss-hvr-card-3 img:first-child,.ss-card-4 img:first-child,.ss-hvr-card-4 img:first-child,.ss-card-5 img:first-child,.ss-hvr-card-5 img:first-child {
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.ss-card-1,.ss-card,.ss-hvr-card:hover {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.ss-card-2,.ss-hvr-card-2:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.ss-card-3,.ss-hvr-card-3:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.ss-card-4,.ss-hvr-card-4:hover {
+  box-shadow: 0 12px 25px 0 rgba(0,0,0,0.23),0 8px 7px 0 rgba(0,0,0,0.22);
+}
+
+.ss-card-5,.ss-hvr-card-5:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.ss-no-shadow {
+  box-shadow: none!important;
+}

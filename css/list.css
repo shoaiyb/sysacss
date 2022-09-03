@@ -1,0 +1,20 @@
+/*! sysacss v0.1.0 | MIT License | github.com/shoaiyb/sysacss */
+
+.ss-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ss-list li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+.ss-list li:last-child {
+  border-bottom: none;
+}
+
+.ss-list.ss-hoverable li:hover {
+  background-color: #ccc;
+}
