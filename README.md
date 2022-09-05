@@ -29,7 +29,7 @@ npm install sysacss
 
 ```html
 <!-- jsDelivr -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shoaiyb/sysacss/sysa.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sysacss/sysa.css" />
 ```
 
 
